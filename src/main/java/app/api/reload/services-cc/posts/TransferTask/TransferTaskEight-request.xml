@@ -1,0 +1,11 @@
+      <p:WSUpdateAttrRequest xmlns:p="http://www.fineos.com/wscomposer/TransferTask">
+<config-name>TransferTask</config-name>
+<update-data> 
+<OCTask>
+<OID>#(taskOid)</OID>
+<BOEVersion>#(boeVersion)</BOEVersion>
+<UserID>#(taskTransferToUserId)</UserID>
+</OCTask>
+<additional-data-set/>
+</update-data>
+</p:WSUpdateAttrRequest>

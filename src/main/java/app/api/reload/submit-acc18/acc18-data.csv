@@ -1,0 +1,6 @@
+seq,defType,providerIdentifier,dobOffset,unfitFromOffset,unfitToOffset
+04,no-incapacity,AA6334,2860,2,87
+05,no-incapacity,AA6334,2806,5,90
+05,with-incapacity,AA6334,2806,4,86
+07,with-incapacity,AA6334,2850,5,90
+18,diagnosis,AA6334,1970,7,90

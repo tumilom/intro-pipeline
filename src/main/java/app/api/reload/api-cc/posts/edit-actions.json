@@ -1,0 +1,8 @@
+{
+  "name": "action: to follow up self care status",
+  "description": "Karate test for Edit action",
+  "startDate": #(startDate),
+  "endDate": #(endDate),
+  "reviewDate": #(reviewDate),
+  "actionResponsibilityOf": "User"
+}

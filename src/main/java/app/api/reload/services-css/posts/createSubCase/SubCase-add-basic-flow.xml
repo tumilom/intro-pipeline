@@ -1,0 +1,17 @@
+<p:WSUpdateRequest
+   xmlns:p="http://www.fineos.com/wscomposer/SubCase"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+             <config-name>SubCase</config-name>
+             <update-data>
+                          <additional-data-set>
+                                        <additional-data>
+                                                      <name>PARAM_STR_CASENUMBER</name>
+                                                      <value>#(parentCaseNumber)</value>
+                                        </additional-data>
+                                        <additional-data>
+                                                     <name>PARAM_STR_CASETYPENAME</name>
+                                                      <value>#(subCaseCaseTypeName)</value>
+                                        </additional-data>
+                          </additional-data-set>
+             </update-data>
+             </p:WSUpdateRequest>

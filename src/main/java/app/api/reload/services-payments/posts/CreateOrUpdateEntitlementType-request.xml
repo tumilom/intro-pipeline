@@ -1,0 +1,43 @@
+<p:WSUpdateRequest
+    xmlns:p="http://www.fineos.com/wscomposer/CreateOrUpdateEntitlementType"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <config-name>CreateOrUpdateEntitlementType</config-name>
+    <update-data>
+        <OLServiceDefinition>
+            <CodeId>#(CodeId)</CodeId>
+            <Description>#(Description)</Description>
+            <ExpectedSLADenomination>
+                <InstanceAndDomainName>
+                    <InstanceName>Unitary</InstanceName>
+                    <DomainName>ExpectedSLADenomination</DomainName>
+                </InstanceAndDomainName>
+            </ExpectedSLADenomination>
+            <ServiceStatus>
+                <InstanceAndDomainName>
+                    <InstanceName>active</InstanceName>
+                    <DomainName>ServiceStatus</DomainName>
+                </InstanceAndDomainName>
+            </ServiceStatus>
+            <extBillingSelfAutIndr>true</extBillingSelfAutIndr>
+            <extCommissionDate>#(extCommissionDate)</extCommissionDate>
+            <extDecommissionDate>#(extDecommissionDate)</extDecommissionDate>
+            <extDentalIndr>false</extDentalIndr>
+            <extHearingLossIndicator>true</extHearingLossIndicator>
+            <extProcItemIndr>true</extProcItemIndr>
+            <extProviderIDIndr>true</extProviderIDIndr>
+            <extSecBillingMethod>
+                <InstanceAndDomainName>
+                    <InstanceName>Not Selected</InstanceName>
+                    <DomainName>ACC Secondary Billing Method</DomainName>
+                </InstanceAndDomainName>
+            </extSecBillingMethod>
+            <extTaxType>
+                <InstanceAndDomainName>
+                    <InstanceName>GST</InstanceName>
+                    <DomainName>ACC Tax Type</DomainName>
+                </InstanceAndDomainName>
+            </extTaxType>
+            <extWarrantyApplicableIndicator>true</extWarrantyApplicableIndicator>
+        </OLServiceDefinition>
+    </update-data>
+</p:WSUpdateRequest>

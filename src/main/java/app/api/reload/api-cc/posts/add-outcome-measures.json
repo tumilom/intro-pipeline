@@ -1,0 +1,68 @@
+{
+    "description": "Karate Testing",
+    "eform": {
+        "name": "HCG Tool",
+        "eformAttributes": [
+            {
+                "name": "HCGQ1",
+                "attributeType": "enum",
+                "value": {
+                    "domainId": 16014,
+                    "fullId": 512448012,
+                    "name": "10",
+                    "domainName": "HCGToolRating"
+                }
+            },
+            {
+                "name": "HCGQ2",
+                "attributeType": "enum",
+                "value": {
+                    "domainId": 16014,
+                    "fullId": 512448012,
+                    "name": "10",
+                    "domainName": "HCGToolRating"
+                }
+            },
+            {
+                "name": "HCGQ3",
+                "attributeType": "enum",
+                "value": {
+                    "domainId": 16014,
+                    "fullId": 512448012,
+                    "name": "10",
+                    "domainName": "HCGToolRating"
+                }
+            },
+            {
+                "name": "HCGQ4",
+                "attributeType": "enum",
+                "value": {
+                    "domainId": 16014,
+                    "fullId": 512448011,
+                    "name": "9",
+                    "domainName": "HCGToolRating"
+                }
+            },
+            {
+                "name": "HCGQ5",
+                "attributeType": "enum",
+                "value": {
+                    "domainId": 16014,
+                    "fullId": 512448012,
+                    "name": "10",
+                    "domainName": "HCGToolRating"
+                }
+            }
+        ],
+        "isKeyDocument": true
+    },
+    "score": 10,
+    "status": {
+        "name": "Draft",
+        "fullId": 73376004
+    },
+    "type": {
+        "name": "HCG Tool",
+        "fullId": 73360008
+    }
+}

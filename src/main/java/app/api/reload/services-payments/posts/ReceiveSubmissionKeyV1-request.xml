@@ -1,0 +1,11 @@
+<p:WSUpdateRequest
+    xmlns:p="http://www.fineos.com/wscomposer/ReceiveSubmissionKeyV1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <config-name>ReceiveSubmissionKeyV1</config-name>
+    <update-data>
+        <ACCBatchSubmissionLink>
+           <BatchId>#(batchId)</BatchId>
+           <SubmissionKey>#(submissionKey)</SubmissionKey>
+        </ACCBatchSubmissionLink>
+      </update-data>
+</p:WSUpdateRequest>

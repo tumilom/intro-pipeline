@@ -1,0 +1,25 @@
+{
+"dateJobBegan": "2023-06-01",
+"dateJobEnded": "",
+"daysWorkedPerWeek": "5",
+"employeeId": "",					
+"employerName": "Jefkar Holdings Ltd",		
+"employmentCategory": {
+"fullId": 4656001,
+"name": "Permanent"
+},
+"employmentStatus": {
+"fullId": 5616006,
+"name": "Current Employment"
+},
+"employmentCategory": {                
+                "fullId": 4656010,
+                "name": "Post-incapacity employment"
+},
+"hoursWorkedPerWeek": "20",
+"jobDesc": "test api work",
+"jobTitle": "api testor",
+"overrideDaysWorkedPerWeek": true,
+"primary": true,
+"selfEmployed": false
+}

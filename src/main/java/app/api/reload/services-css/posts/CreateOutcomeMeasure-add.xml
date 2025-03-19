@@ -1,0 +1,44 @@
+<p:WSUpdateRequest
+    xmlns:p="http://www.fineos.com/wscomposer/CreateOutcomeMeasure"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <config-name>CreateOutcomeMeasure</config-name>
+    <update-data>
+        <OutcomeMeasure>
+            <Description>Testing X</Description>
+        </OutcomeMeasure>
+        <additional-data-set>
+            <additional-data>
+                <name>PARAM_STR_CASENUMBER</name>
+                <value>#(recoverPlanCaseNumber)</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_STR_USERID</name>
+                <value>#(myACCCustomerNo)</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_STR_ASSMTTYPE</name>
+                <value>#(outcomeMeasureType)</value>
+            </additional-data>
+            <additional-data>
+                <name>FORM_HCGQ1</name>
+                <value>9</value>
+            </additional-data>
+            <additional-data>
+                <name>FORM_HCGQ2</name>
+                <value>4</value>
+            </additional-data>
+            <additional-data>
+                <name>FORM_HCGQ3</name>
+                <value>5</value>
+            </additional-data>
+            <additional-data>
+                <name>FORM_HCGQ4</name>
+                <value>No rating given</value>
+            </additional-data>
+            <additional-data>
+                <name>FORM_HCGQ5</name>
+                <value>7</value>
+            </additional-data>
+        </additional-data-set>
+    </update-data>
+</p:WSUpdateRequest>

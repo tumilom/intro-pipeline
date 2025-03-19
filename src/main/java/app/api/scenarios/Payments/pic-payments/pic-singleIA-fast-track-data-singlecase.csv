@@ -1,0 +1,2 @@
+seq,defType,causeOfInjury,claimantFirstName,lastname,lodgementOffset,dobOffset,medCode,taxType,irdNo,picAccidentDateTime,picAccidentDateNoTime,wpiScore
+10,withIncapacity,R hand caught between Test planks of wood,pic single ia,test,30,2800,Eu341,M SL,123123123,01/02/2002 09:00,01/02/2002,76

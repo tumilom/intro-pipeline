@@ -1,0 +1,11 @@
+seq,defType,causeOfInjury,claimantFirstName,lastname,lodgementOffset,dobOffset,medCode,taxType,irdNo,employerNumber,employmentType,earnings01Type,earnings01Amount,earnings02Type,earnings02Amount
+50,withIncapacity,Twisted ankle while going down stairs,Tesla,Tester,21,1954,Eu341,ME,123123123,U1323116E,Permanent,Short Term Earnings,9437,Long Term Earnings,178391 
+51,withIncapacity,Hearing MBI noises of boinling water…,Tintin,Tester,21,1955,Eu341,M,123123123,U1323116E,Permanent,Short Term Earnings,4237,Long Term Earnings,78391  
+52,withIncapacity,Twisted MBI big toe while going down stairs,Tessa,Tester,21,1956,Eu341,M SL,123123123,U1323116E,Permanent,Short Term Earnings,5437,Long Term Earnings,78391 
+53,withIncapacity,Hearing MBI noises of boinling coffex,Teresa,Tester,21,1957,Eu341,ME,123123123,U1323116E,Permanent,Short Term Earnings,1437,Long Term Earnings,88391 
+54,withIncapacity,R hand caught between MBI planks belt,Therese,Tester,21,2821,Eu341,M,123123123,U1323116E,Permanent,Short Term Earnings,4537,Long Term Earnings,78391 
+55,withIncapacity,R hand caught between Test planks of wood,Themote,Tester,21,2822,Eu341,M SL,123123123,U1323116E,Permanent,Short Term Earnings,6437,Long Term Earnings,78391 
+56,withIncapacity,L hand caught between MBI planks of wood,Donald,Christiansen,21,2823,Eu341,ME,123123123,U1323116E,Permanent,Short Term Earnings,8437,Long Term Earnings,78391 
+57,withIncapacity,L hand caught between MBI plag belt,Dinah,Christiansen,21,2824,Eu341,M,123123123,U1323116E,Permanent,Short Term Earnings,8437,Long Term Earnings,78391 
+58,withIncapacity,L hand caught between MBI plag belt,Dona,Christiansen,21,1925,Eu341,M SL,123123123,U1323116E,Permanent,Short Term Earnings,6437,Long Term Earnings,28391 
+59,withIncapacity,L hand caught between MBI plag belt,Donald,Christiansen,21,1926,Eu341,ME,123123123,U1323116E,Permanent,Short Term Earnings,4937,Long Term Earnings,78391

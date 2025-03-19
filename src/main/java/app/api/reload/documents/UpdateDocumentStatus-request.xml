@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:WSUpdateRequest xmlns:p="http://www.fineos.com/wscomposer/UpdateDocument" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <config-name>UpdateDocument</config-name>
+    <update-data>
+        <OCDocument>
+            <Status>
+            <InstanceAndDomainName>
+                <InstanceName>Complete</InstanceName>
+                <DomainName>Document Status</DomainName>
+            </InstanceAndDomainName>
+        </Status>
+        <Type>
+            <InstanceAndDomainName>
+                <InstanceName>Image</InstanceName>
+                <DomainName>OCDocument Type</DomainName>
+            </InstanceAndDomainName>
+        </Type>
+        <FileExtension>.pdf</FileExtension>
+        <FileName>#(filename)</FileName>
+        <extVCFContentID>#(documentContentId)</extVCFContentID>
+        </OCDocument>
+    </update-data>
+</p:WSUpdateRequest>

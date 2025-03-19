@@ -1,0 +1,54 @@
+{
+    "eformAttributes": [
+        {
+            "name": "claimNumber",
+            "attributeType": "string",
+            "value": "10060075373"
+        },
+        {
+            "name": "providerId",
+            "attributeType": "string",
+            "value": "AA9108"
+        },
+        {
+            "name": "vendorId",
+            "attributeType": "string",
+            "value": "AA210"
+        },
+        {
+            "name": "patientDOB",
+            "attributeType": "date",
+            "value": "2000-01-19"
+        },
+        {
+            "name": "exitDate",
+            "attributeType": "date",
+            "value": "2023-04-18"
+        },
+        {
+            "name": "exitReason",
+            "attributeType": "enum",
+            "value": {
+                "name": "Recovery goal achieved",
+                "domainName": "ICPExitReason"
+            }
+        },
+        {
+            "name": "additionalDetails",
+            "attributeType": "string",
+            "value": "Up to 250 characters"
+        },
+        {
+            "name": "additionalSupportsRequired",
+            "attributeType": "boolean",
+            "value": false
+        },
+        {
+            "name": "outcomeSummary",
+            "attributeType": "string",
+            "value": "Test"
+        }
+    ],
+    "isKeyDocument": true,
+    "name": "ICP Referral Exit"
+}

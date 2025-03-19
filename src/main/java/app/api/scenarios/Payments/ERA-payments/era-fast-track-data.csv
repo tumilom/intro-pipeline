@@ -1,0 +1,11 @@
+seq,defType,causeOfInjury,claimantFirstName,lastname,lodgementOffset,dobOffset,medCode,taxType,irdNo,employerNumber,employmentType,eraPaymentOption,earnings01Type,earnings01Amount,earnings02Type,earnings02Amount
+40,withIncapacity,Twisted ankle while going down stairs,Tesla,Tester,21,1900,Eu341,ME,123123123,CN135780D,Permanent,Employer opt in,Short Term Earnings,437,Long Term Earnings,78391 
+41,withIncapacity,Hearing MBI noises of boinling water…,Tintin,Tester,21,1900,Eu341,M,123123123,CN135780D,Permanent,Employer opt in,Short Term Earnings,437,Long Term Earnings,78391  
+42,withIncapacity,Twisted MBI big toe while going down stairs,Tessa,Tester,21,1900,Eu341,M SL,123123123,CN135780D,Permanent,Employer opt in,Short Term Earnings,437,Long Term Earnings,78391 
+43,withIncapacity,Hearing MBI noises of boinling coffex,Teresa,Tester,21,1900,Eu341,ME,123123123,CN135780D,Permanent,Employer opt in,Short Term Earnings,437,Long Term Earnings,78391 
+44,withIncapacity,R hand caught between MBI planks belt,Therese,Tester,21,2800,Eu341,M,123123123,CN135780D,Permanent,Employer opt in,Short Term Earnings,437,Long Term Earnings,78391 
+45,withIncapacity,R hand caught between Test planks of wood,Themote,Tester,21,2800,Eu341,M SL,123123123,CN135780D,Permanent,Employer opt in,Short Term Earnings,437,Long Term Earnings,78391 
+46,withIncapacity,L hand caught between MBI planks of wood,Donald,Christiansen,21,2800,Eu341,ME,123123123,CN135780D,Permanent,Employer opt in,Short Term Earnings,437,Long Term Earnings,78391 
+47,withIncapacity,L hand caught between MBI plag belt,Dinah,Christiansen,21,2800,Eu341,M,123123123,CN135780D,Permanent,Employer opt in,Short Term Earnings,437,Long Term Earnings,78391 
+48,withIncapacity,L hand caught between MBI plag belt,Dona,Christiansen,21,1900,Eu341,M SL,123123123,CN135780D,Permanent,Employer opt in,Short Term Earnings,437,Long Term Earnings,78391 
+49,withIncapacity,L hand caught between MBI plag belt,Donald,Christiansen,21,1900,Eu341,ME,123123123,CN135780D,Permanent,Employer opt in,Short Term Earnings,437,Long Term Earnings,78391

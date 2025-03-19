@@ -1,0 +1,47 @@
+<oper:WSUpdateRequest xmlns:oper="http://www.fineos.com/wscomposer/CreateUpdateCustomerAddressDetails">
+<config-name>#(configParam)</config-name>
+	<update-data>
+		<OCPostalAddress>
+			<Address1>110 Egerton Road</Address1>
+			<Address2>RD 1</Address2>
+			<Address3>Winton</Address3>
+			<Address4></Address4>
+			<Address5></Address5>
+			<Address6></Address6>
+			<Address7></Address7>
+			<AddressKey>2119458</AddressKey>
+			<Country>
+				<InstanceAndDomainName>
+					<InstanceName>New Zealand</InstanceName>
+					<DomainName>Country</DomainName>
+				</InstanceAndDomainName>
+			</Country>
+			<PostCode>9781</PostCode>
+			<PremiseNo></PremiseNo>
+			<VerificationStatus>
+				<InstanceAndDomainName>
+					<InstanceName>#(verificationStatus)</InstanceName>
+					<DomainName>VerificationStatus</DomainName>
+				</InstanceAndDomainName>
+			</VerificationStatus>
+		</OCPostalAddress>
+		<additional-data-set>
+			<additional-data>
+				<name>PARAM_IS_CORRESPONDENCE</name>
+				<value>true</value>
+			</additional-data>
+			<additional-data>
+				<name>PARAM_STR_CUSTOMERNO</name>
+				<value>#(eosCustomerNo)</value>
+			</additional-data>
+			<additional-data>
+				<name>PARAM_STR_USERID</name>
+				<value>OASIS</value>
+			</additional-data>
+			<additional-data>
+				<name>PARAM_STR_ADDRESS_TYPE</name>
+				<value>Alternate</value>
+			</additional-data>
+		</additional-data-set>
+	</update-data>
+</oper:WSUpdateRequest>

@@ -1,0 +1,68 @@
+{
+    "eformAttributes": [
+        {
+            "name": "subcaseNo",
+            "attributeType": "string",
+            "value": "#(claimNumber)"
+        },
+        {
+            "name": "providerId",
+            "attributeType": "string",
+            "value": "AA6334"
+        },
+        {
+            "name": "dateOfMeasurement",
+            "attributeType": "date",
+            "value": "2023-04-18"
+        },
+        {
+            "name": "category",
+            "attributeType": "enum",
+            "value": {
+                "name": "Site Specific Clinical Measure",
+                "domainName": "ICPMeasurementCategory"
+            }
+        },
+        {
+            "name": "stage",
+            "attributeType": "enum",
+            "value": {
+                "name": "Exit",
+                "domainName": "ICPPromStage"
+            }
+        },
+        {
+            "name": "bodySite",
+            "attributeType": "enum",
+            "value": {
+                "name": "Shoulder",
+                "domainName": "ICPPromBodySite"
+            }
+        },
+        {
+            "name": "measurementStandard",
+            "attributeType": "enum",
+            "value": {
+                "name": "Shoulder abduction 45 degrees - Hand held dynamometer",
+                "domainName": "ICPMeasurementStandard"
+            }
+        },
+        {
+            "name": "value",
+            "attributeType": "string",
+            "value": "6.6kg"
+        },
+        {
+            "name": "dataAbsentReason",
+            "attributeType": "string",
+            "value": "data absent reason is mentioned here"
+        },
+        {
+            "name": "status",
+            "attributeType": "string",
+            "value": "Final"
+        }
+    ],
+    "isKeyDocument": true,
+    "name": "ICP Clinical Functional Measures"
+}

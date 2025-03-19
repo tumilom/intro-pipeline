@@ -1,0 +1,42 @@
+ <p:WSUpdateRequest
+	xmlns:p="http://www.fineos.com/wscomposer/UpdateTask">
+	<config-name>UpdateTask</config-name>  
+	<update-data>    
+		<OCTask>      
+			<BusPriority>        
+				<InstanceAndDomainName>          
+					<InstanceName>Low</InstanceName>          
+					<DomainName>Business Priority</DomainName>        
+				</InstanceAndDomainName>      
+			</BusPriority>      
+			<CancelationReason>        
+				<InstanceAndDomainName>          
+					<InstanceName>Copy Claim</InstanceName>          
+					<DomainName>CancellationReason</DomainName>        
+				</InstanceAndDomainName>      
+			</CancelationReason>      
+			<Description>KARATE updated task description</Description>      
+			<OnHoldUntil>2025-02-11T12:00:00</OnHoldUntil>      
+			<TargetDate>2025-04-11T12:00:00</TargetDate>      
+			<OnHoldReason>4800001</OnHoldReason>    
+		</OCTask>    
+		<additional-data-set>      
+			<additional-data>        
+				<name>PARAM_STR_USERID</name>        
+				<value>#(userId)</value>      
+			</additional-data>      
+			<additional-data>        
+				<name>PARAM_STR_TASKID</name>        
+				<value>#(taskOid)</value>      
+			</additional-data>      
+			<additional-data>        
+				<name>PARAM_STR_BOEVERSION</name>        
+				<value>#(boeVersion)</value>      
+			</additional-data>      
+			<additional-data>        
+				<name>PARAM_STR_ACTION_TYPE</name>        
+				<value>#(actionType)</value>      
+			</additional-data>    
+		</additional-data-set>  
+	</update-data>
+</p:WSUpdateRequest>

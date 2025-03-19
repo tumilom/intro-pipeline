@@ -1,0 +1,44 @@
+{
+    "lifeAreaName": "Treatment Plan",
+    "clientGoalId": "",
+    "creationDate": #(effectiveDate),
+    "description": "Karate Test",
+    "name": "Get appropriate rehabilitation/treatment",
+    "targetDate": #(targetDate),
+    "status": {
+        "name": "Active",
+        "fullId": 77152001
+    },
+    "targetAchievementLevel": {
+        "name": "Unknown",
+        "fullId": 76800000
+    },
+    "importance": {
+        "name": "Unknown",
+        "fullId": 77184000
+    },
+    "difficulty": {
+        "name": "Unknown",
+        "fullId": 77216000
+    },
+    "attainmentScoreBaseline": {
+        "name": "Unknown",
+        "fullId": 77248000
+    },
+    "achievementDate": #(targetDate),
+    "notes": "karate Test",
+    "outcomeDate": "",
+    "progressAndImpl": "",
+    "achievementLevel": {
+        "name": "Unknown",
+        "fullId": 76800000
+    },
+    "outcome": {
+        "name": "Unknown",
+        "fullId": 77280000
+    },
+    "reason": {
+        "name": "Unknown",
+        "fullId": 77312000
+    }
+}

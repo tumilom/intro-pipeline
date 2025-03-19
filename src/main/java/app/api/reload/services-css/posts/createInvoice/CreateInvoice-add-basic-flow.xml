@@ -1,0 +1,141 @@
+<p:WSUpdateRequest
+    xmlns:p="http://www.fineos.com/wscomposer/CreateInvoice"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<config-name>CreateInvoice</config-name>
+	<update-data>
+		<OLInvoice>
+			<Description>MY ACC Invoice Private Motors validation</Description>
+			<lineItems>
+				<!--You have a CHOICE of the next 2 items at this level-->
+				<OLInvoiceLineItem>
+					<Description>OD Test1</Description>
+					<PeriodStartDate>2024-06-16T12:00:00</PeriodStartDate>
+					<!--Optional:-->
+					<serviceDefinition>
+						<!--Zero or more repetitions:-->
+						<OLServiceDefinition>
+							<CodeId>KMCV</CodeId>
+						</OLServiceDefinition>
+					</serviceDefinition>
+					<InvoiceLineType>
+						<FullId>71664003</FullId>
+					</InvoiceLineType>
+					<lineItemDetails>
+						<OLLineItemDetails>
+							<Amount>
+								<CurrencyCode>---</CurrencyCode>
+								<Amount>900.00</Amount>
+							</Amount>
+							<CaptureNumUnits>0</CaptureNumUnits>
+							<NumUnits>200</NumUnits>
+
+							<UnitRate>
+								<CurrencyCode>---</CurrencyCode>
+								<Amount>30.0</Amount>
+							</UnitRate>
+							<UsageBasis>
+								<InstanceAndDomainName>
+									<InstanceName>Amount Based</InstanceName>
+									<DomainName>UsageBasis</DomainName>
+								</InstanceAndDomainName>
+							</UsageBasis>
+						</OLLineItemDetails>
+					</lineItemDetails>
+					<additionalInformation/>
+				</OLInvoiceLineItem>
+				<OLInvoiceLineItem>
+					<Description>OD Test2</Description>
+					<PeriodStartDate>2024-06-16T12:00:00</PeriodStartDate>
+					<!--Optional:-->
+					<serviceDefinition>
+						<!--Zero or more repetitions:-->
+						<OLServiceDefinition>
+							<CodeId>KMCS</CodeId>
+						</OLServiceDefinition>
+					</serviceDefinition>
+					<InvoiceLineType>
+						<FullId>71664003</FullId>
+					</InvoiceLineType>
+					<lineItemDetails>
+						<OLLineItemDetails>
+							<Amount>
+								<CurrencyCode>---</CurrencyCode>
+								<Amount>200.00</Amount>
+							</Amount>
+							<CaptureNumUnits>0</CaptureNumUnits>
+							<NumUnits>100</NumUnits>
+							<UnitRate>
+								<CurrencyCode>---</CurrencyCode>
+								<Amount>10.0</Amount>
+							</UnitRate>
+							<UsageBasis>
+								<InstanceAndDomainName>
+									<InstanceName>Amount Based</InstanceName>
+									<DomainName>UsageBasis</DomainName>
+								</InstanceAndDomainName>
+							</UsageBasis>
+						</OLLineItemDetails>
+					</lineItemDetails>
+					<additionalInformation/>
+				</OLInvoiceLineItem>
+			</lineItems>
+			<servicePartyAffiliation>
+				<OLServicePartyAffiliation>
+				</OLServicePartyAffiliation>
+			</servicePartyAffiliation>
+			<Cost>
+				<CurrencyCode>---</CurrencyCode>
+				<Amount>0</Amount>
+			</Cost>
+			<InvoiceDate>2024-06-16T12:00:00</InvoiceDate>
+			<InvoiceReceivedDate>2024-06-16T12:00:00</InvoiceReceivedDate>
+			<PracticeId/>
+			<ProcessScenario>
+				<InstanceDomainAndFullId>
+					<InstanceName>External</InstanceName>
+					<DomainName>InvoiceProcessScenario</DomainName>
+					<FullId>80048001</FullId>
+				</InstanceDomainAndFullId>
+			</ProcessScenario>
+			<Reimbursement>true</Reimbursement>
+			<Type>
+				<InstanceDomainAndFullId>
+					<InstanceName>Travel</InstanceName>
+					<DomainName>InvoiceType</DomainName>
+					<FullId>80240001</FullId>
+				</InstanceDomainAndFullId>
+			</Type>
+			<serviceHolderForInvoice>
+				<OLServicesHolder>
+					<benefitForServiceLink>
+						<OLBenefit>
+							<CaseNumber>#(crCaseNumber)</CaseNumber>
+						</OLBenefit>
+					</benefitForServiceLink>
+				</OLServicesHolder>
+			</serviceHolderForInvoice>
+			<invoicePayee>
+				<OLInvoicePayee>
+					<payee>
+						<OLPartyDetails>
+							<CustomerNo>#(customerNo)</CustomerNo>
+						</OLPartyDetails>
+					</payee>
+					<assignedPaymentPreference>
+					<OLPaymentPreference>
+							<I>#(paymentPreferenceId)</I>
+						</OLPaymentPreference>
+					</assignedPaymentPreference>
+					
+				</OLInvoicePayee>
+			</invoicePayee>
+
+		</OLInvoice>
+		<additional-data-set>
+			<additional-data>
+				<name>isAService</name>
+				<value>true</value>
+			</additional-data>
+		</additional-data-set>
+	</update-data>
+</p:WSUpdateRequest>

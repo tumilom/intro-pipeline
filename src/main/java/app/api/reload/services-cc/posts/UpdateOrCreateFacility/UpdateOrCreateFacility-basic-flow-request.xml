@@ -1,0 +1,466 @@
+<uocf:WSUpdateRequest xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:uocf="http://www.fineos.com/wscomposer/UpdateOrCreateFacility">
+   <config-name>Anything will do for REST - config-name, userid are passed as http request parameter</config-name>
+<update-data>
+	<PartyIntegrationDTO>
+		<EffectiveDate>#(dateNow)</EffectiveDate>
+		<PartyTypeFlag>Facility</PartyTypeFlag>
+		<SourceSystemName>MFP</SourceSystemName>
+		<organisation>
+			<OCOrganisation>
+				<CustomerNo>#(facilityId)</CustomerNo>
+				<extLocation>
+					<InstanceAndDomainName>
+						<InstanceName>Christchurch City</InstanceName>
+						<DomainName>ACC Accident Location</DomainName>
+					</InstanceAndDomainName>
+				</extLocation>
+				<extStatus>
+					<InstanceAndDomainName>
+						<InstanceName>#(extStatus)</InstanceName>
+						<DomainName>ACC Party Status</DomainName>
+					</InstanceAndDomainName>
+				</extStatus>
+				<extStatusReason>
+					<InstanceAndDomainName>
+					<InstanceName>#(extStatusReason)</InstanceName>
+						<DomainName>ACC Party Status Reason</DomainName>
+					</InstanceAndDomainName>
+				</extStatusReason>
+				<partyAddresses>
+					<OCPartyAddress>
+						<Usage>
+							<InstanceAndDomainName>
+								<InstanceName>Business</InstanceName>
+								<DomainName>Usage</DomainName>
+							</InstanceAndDomainName>
+						</Usage>
+						<versions>
+							<OCPartyAddressVersion>
+								<EffectiveFrom>2022-11-29T15:57:23.679+13:00</EffectiveFrom>
+								<postalAddress>
+									<OCPostalAddress>
+										<Address1>Hei Hei Health Centre</Address1>
+										<Address2>18 Wycola Avenue</Address2>
+										<Address3>Hei Hei</Address3>
+										<Address4>Christchurch</Address4>
+										<Address7 />
+										<Country>
+											<InstanceAndDomainName>
+												<InstanceName>New Zealand</InstanceName>
+												<DomainName>Country</DomainName>
+											</InstanceAndDomainName>
+										</Country>
+										<PostCode>8042</PostCode>
+										<VerificationStatus>
+											<InstanceAndDomainName>
+												<InstanceName>Verified</InstanceName>
+												<DomainName>VerificationStatus</DomainName>
+											</InstanceAndDomainName>
+										</VerificationStatus>
+										<extExternalPostalAddrId>1401780278</extExternalPostalAddrId>
+										<verificationHistory>
+											<OCVerificationChange>
+												<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+											</OCVerificationChange>
+										</verificationHistory>
+									</OCPostalAddress>
+								</postalAddress>
+								<contactMediums>
+									<OCFlatContact>
+										<ContactMethod>
+											<InstanceAndDomainName>
+												<InstanceName>Email</InstanceName>
+												<DomainName>Contact Medium</DomainName>
+											</InstanceAndDomainName>
+										</ContactMethod>
+										<VerificationStatus>
+											<InstanceAndDomainName>
+												<InstanceName>Verified</InstanceName>
+												<DomainName>VerificationStatus</DomainName>
+											</InstanceAndDomainName>
+										</VerificationStatus>
+										<extExternalContactMedId>1401780274</extExternalContactMedId>
+										<verificationHistory>
+											<OCVerificationChange>
+												<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+											</OCVerificationChange>
+										</verificationHistory>
+										<FreeFormatAddress>reception@timfac.pegasus.net.nz
+										</FreeFormatAddress>
+									</OCFlatContact>
+									<OCPhone>
+										<ContactMethod>
+											<InstanceAndDomainName>
+												<InstanceName>Work Phone</InstanceName>
+												<DomainName>Contact Medium</DomainName>
+											</InstanceAndDomainName>
+										</ContactMethod>
+										<VerificationStatus>
+											<InstanceAndDomainName>
+												<InstanceName>Verified</InstanceName>
+												<DomainName>VerificationStatus</DomainName>
+											</InstanceAndDomainName>
+										</VerificationStatus>
+										<verificationHistory>
+											<OCVerificationChange>
+												<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+											</OCVerificationChange>
+										</verificationHistory>
+										<TelephoneNo>03 344 3274</TelephoneNo>
+									</OCPhone>
+									<OCPhone>
+										<ContactMethod>
+											<InstanceAndDomainName>
+												<InstanceName>Mobile</InstanceName>
+												<DomainName>Contact Medium</DomainName>
+											</InstanceAndDomainName>
+										</ContactMethod>
+										<VerificationStatus>
+											<InstanceAndDomainName>
+												<InstanceName>Verified</InstanceName>
+												<DomainName>VerificationStatus</DomainName>
+											</InstanceAndDomainName>
+										</VerificationStatus>
+										<verificationHistory>
+											<OCVerificationChange>
+												<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+											</OCVerificationChange>
+										</verificationHistory>
+										<TelephoneNo>021 991 1726</TelephoneNo>
+									</OCPhone>
+								</contactMediums>			
+							</OCPartyAddressVersion>
+						</versions>
+					</OCPartyAddress>					
+					<OCPartyAddress>
+						<Usage>
+							<InstanceAndDomainName>
+								<InstanceName>Alternate</InstanceName>
+								<DomainName>Usage</DomainName>
+							</InstanceAndDomainName>
+						</Usage>
+						<versions>
+							<OCPartyAddressVersion>
+								<EffectiveFrom>2022-11-29T15:57:23.679+13:00</EffectiveFrom>
+								<postalAddress>
+									<OCPostalAddress>
+										<Address1>Tay Tay Health Centre</Address1>
+										<Address2>39 South Molle Boulevard</Address2>
+										<Address3>Burketown</Address3>
+										<Address4>Queensland</Address4>
+										<Address7 />
+										<Country>
+											<InstanceAndDomainName>
+												<InstanceName>Australia</InstanceName>
+												<DomainName>Country</DomainName>
+											</InstanceAndDomainName>
+										</Country>
+										<PostCode>4830</PostCode>
+										<VerificationStatus>
+											<InstanceAndDomainName>
+												<InstanceName>Verified</InstanceName>
+												<DomainName>VerificationStatus</DomainName>
+											</InstanceAndDomainName>
+										</VerificationStatus>
+										<extExternalPostalAddrId>1401780278</extExternalPostalAddrId>
+										<verificationHistory>
+											<OCVerificationChange>
+												<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+											</OCVerificationChange>
+										</verificationHistory>
+									</OCPostalAddress>
+								</postalAddress>
+								<contactMediums>
+									<OCPhone>
+										<ContactMethod>
+											<InstanceAndDomainName>
+												<InstanceName>Work Phone</InstanceName>
+												<DomainName>Contact Medium</DomainName>
+											</InstanceAndDomainName>
+										</ContactMethod>
+										<VerificationStatus>
+											<InstanceAndDomainName>
+												<InstanceName>Unverified</InstanceName>
+												<DomainName>VerificationStatus</DomainName>
+											</InstanceAndDomainName>
+										</VerificationStatus>
+										<verificationHistory>
+											<OCVerificationChange>
+												<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+											</OCVerificationChange>
+										</verificationHistory>
+										<TelephoneNo>03 344 3274</TelephoneNo>
+									</OCPhone>
+									<OCPhone>
+										<ContactMethod>
+											<InstanceAndDomainName>
+												<InstanceName>Mobile</InstanceName>
+												<DomainName>Contact Medium</DomainName>
+											</InstanceAndDomainName>
+										</ContactMethod>
+										<VerificationStatus>
+											<InstanceAndDomainName>
+												<InstanceName>Verified</InstanceName>
+												<DomainName>VerificationStatus</DomainName>
+											</InstanceAndDomainName>
+										</VerificationStatus>
+										<verificationHistory>
+											<OCVerificationChange>
+												<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+											</OCVerificationChange>
+										</verificationHistory>
+										<TelephoneNo>021 991 1726</TelephoneNo>
+									</OCPhone>
+									<OCPhone>
+										<ContactMethod>
+											<InstanceAndDomainName>
+												<InstanceName>Alt Mobile</InstanceName>
+												<DomainName>Contact Medium</DomainName>
+											</InstanceAndDomainName>
+										</ContactMethod>
+										<VerificationStatus>
+											<InstanceAndDomainName>
+												<InstanceName>Unverified</InstanceName>
+												<DomainName>VerificationStatus</DomainName>
+											</InstanceAndDomainName>
+										</VerificationStatus>
+										<verificationHistory>
+											<OCVerificationChange>
+												<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+											</OCVerificationChange>
+										</verificationHistory>
+										<TelephoneNo>022 881 1726</TelephoneNo>
+									</OCPhone>
+								</contactMediums>
+							</OCPartyAddressVersion>
+						</versions>
+					</OCPartyAddress>
+				</partyAddresses>
+				<pointsOfContact>
+					<OCPointOfContact>
+						<ContactName>Tony Hawk</ContactName>
+						<Role>
+							<InstanceAndDomainName>
+								<InstanceName>ACC32 Purchasing</InstanceName>
+								<DomainName>Point Of Contact Role</DomainName>
+							</InstanceAndDomainName>
+						</Role>
+						<extPosition>Operations Chief</extPosition>
+						<preferredContactMedium />
+						<contactPostalAddress>
+							<OCPostalAddress>
+								<Address1>Hei Hei Health Centre</Address1>
+								<Address2>1 Thomas Lane</Address2>
+								<Address3>Yarrawonga South</Address3>
+								<Address4>Victoria</Address4>
+								<Address7 />
+								<Country>
+									<InstanceAndDomainName>
+										<InstanceName>Australia</InstanceName>
+										<DomainName>Country</DomainName>
+									</InstanceAndDomainName>
+								</Country>
+								<PostCode>2850</PostCode>
+								<VerificationStatus>
+									<InstanceAndDomainName>
+										<InstanceName>Verified</InstanceName>
+										<DomainName>VerificationStatus</DomainName>
+									</InstanceAndDomainName>
+								</VerificationStatus>
+								<extExternalPostalAddrId>27058816</extExternalPostalAddrId>
+							</OCPostalAddress>
+						</contactPostalAddress>
+						<contactMedium>
+							<OCFlatContact>
+								<ContactMethod>
+									<InstanceAndDomainName>
+										<InstanceName>Email</InstanceName>
+										<DomainName>Contact Medium</DomainName>
+									</InstanceAndDomainName>
+								</ContactMethod>
+								<VerificationStatus>
+									<InstanceAndDomainName>
+										<InstanceName>Verified</InstanceName>
+										<DomainName>VerificationStatus</DomainName>
+									</InstanceAndDomainName>
+								</VerificationStatus>
+								<extExternalContactMedId>1401780274</extExternalContactMedId>
+								<verificationHistory>
+									<OCVerificationChange>
+										<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+									</OCVerificationChange>
+								</verificationHistory>
+								<FreeFormatAddress>reception@heihei.pegasus.net.nz
+								</FreeFormatAddress>
+							</OCFlatContact>
+							<OCPhone>
+								<ContactMethod>
+									<InstanceAndDomainName>
+										<InstanceName>Work Phone</InstanceName>
+										<DomainName>Contact Medium</DomainName>
+									</InstanceAndDomainName>
+								</ContactMethod>
+								<VerificationStatus>
+									<InstanceAndDomainName>
+										<InstanceName>Verified</InstanceName>
+										<DomainName>VerificationStatus</DomainName>
+									</InstanceAndDomainName>
+								</VerificationStatus>
+								<verificationHistory>
+									<OCVerificationChange>
+										<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+									</OCVerificationChange>
+								</verificationHistory>
+								<TelephoneNo>03 344 3274</TelephoneNo>
+							</OCPhone>
+							<OCPhone>
+								<ContactMethod>
+									<InstanceAndDomainName>
+										<InstanceName>Mobile</InstanceName>
+										<DomainName>Contact Medium</DomainName>
+									</InstanceAndDomainName>
+								</ContactMethod>
+								<VerificationStatus>
+									<InstanceAndDomainName>
+										<InstanceName>Verified</InstanceName>
+										<DomainName>VerificationStatus</DomainName>
+									</InstanceAndDomainName>
+								</VerificationStatus>
+								<verificationHistory>
+									<OCVerificationChange>
+										<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+									</OCVerificationChange>
+								</verificationHistory>
+								<TelephoneNo>021 991 1726</TelephoneNo>
+							</OCPhone>
+						</contactMedium>
+					</OCPointOfContact>
+					<OCPointOfContact>
+						<ContactName>Tammy Tac</ContactName>
+						<Role>
+							<InstanceAndDomainName>
+								<InstanceName>Surgery Purchasing</InstanceName>
+								<DomainName>Point Of Contact Role</DomainName>
+							</InstanceAndDomainName>
+						</Role>
+						<extPosition>General Manager</extPosition>
+						<preferredContactMedium>
+							<OCPhone>
+								<ContactMethod>
+									<InstanceAndDomainName>
+										<InstanceName>Fax</InstanceName>
+										<DomainName>Contact Medium</DomainName>
+									</InstanceAndDomainName>
+								</ContactMethod>
+								<VerificationStatus>										
+									<InstanceAndDomainName>
+										<InstanceName>Verified</InstanceName>
+										<DomainName>VerificationStatus</DomainName>
+									</InstanceAndDomainName>
+								</VerificationStatus>
+								<extExternalContactMedId>25470082</extExternalContactMedId>
+								<TelephoneNo>03 344 3274</TelephoneNo>
+							</OCPhone>
+						</preferredContactMedium>
+						<contactPostalAddress>
+							<OCPostalAddress>
+								<Address1>Tay Tay Health Centre</Address1>
+								<Address2>1 Dietcola Avenue</Address2>
+								<Address3>Hei Hei</Address3>
+								<Address4>Christchurch</Address4>
+								<Address7 />
+								<Country>
+									<InstanceAndDomainName>
+										<InstanceName>New Zealand</InstanceName>
+										<DomainName>Country</DomainName>
+									</InstanceAndDomainName>
+								</Country>
+								<PostCode>8042</PostCode>
+								<VerificationStatus>
+									<InstanceAndDomainName>
+										<InstanceName>Verified</InstanceName>
+										<DomainName>VerificationStatus</DomainName>
+									</InstanceAndDomainName>
+								</VerificationStatus>
+								<extExternalPostalAddrId>26748427</extExternalPostalAddrId>
+							</OCPostalAddress>
+						</contactPostalAddress>
+						<contactMedium>
+							<OCFlatContact>
+								<ContactMethod>
+									<InstanceAndDomainName>
+										<InstanceName>Email</InstanceName>
+										<DomainName>Contact Medium</DomainName>
+									</InstanceAndDomainName>
+								</ContactMethod>
+								<VerificationStatus>
+									<InstanceAndDomainName>
+										<InstanceName>Unverified</InstanceName>
+										<DomainName>VerificationStatus</DomainName>
+									</InstanceAndDomainName>
+								</VerificationStatus>
+								<extExternalContactMedId>1401780274</extExternalContactMedId>
+								<verificationHistory>
+									<OCVerificationChange>
+										<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+									</OCVerificationChange>
+								</verificationHistory>
+								<FreeFormatAddress>reception@heihei.pegasus.net.nz
+								</FreeFormatAddress>
+							</OCFlatContact>
+							<OCPhone>
+								<ContactMethod>
+									<InstanceAndDomainName>
+										<InstanceName>Fax</InstanceName>
+										<DomainName>Contact Medium</DomainName>
+									</InstanceAndDomainName>
+								</ContactMethod>
+								<VerificationStatus>
+									<InstanceAndDomainName>
+										<InstanceName>Verified</InstanceName>
+										<DomainName>VerificationStatus</DomainName>
+									</InstanceAndDomainName>
+								</VerificationStatus>
+								<verificationHistory>
+									<OCVerificationChange>
+										<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+									</OCVerificationChange>
+								</verificationHistory>
+								<TelephoneNo>03 344 3274</TelephoneNo>
+							</OCPhone>
+							<OCPhone>
+								<ContactMethod>
+									<InstanceAndDomainName>
+										<InstanceName>Mobile</InstanceName>
+										<DomainName>Contact Medium</DomainName>
+									</InstanceAndDomainName>
+								</ContactMethod>
+								<VerificationStatus>
+									<InstanceAndDomainName>
+										<InstanceName>Verified</InstanceName>
+										<DomainName>VerificationStatus</DomainName>
+									</InstanceAndDomainName>
+								</VerificationStatus>
+								<verificationHistory>
+									<OCVerificationChange>
+										<ChangeDate>2022-11-29T13:45:15</ChangeDate>
+									</OCVerificationChange>
+								</verificationHistory>
+								<TelephoneNo>021 991 1726</TelephoneNo>
+							</OCPhone>
+						</contactMedium>
+					</OCPointOfContact>
+				</pointsOfContact>
+				<Name>#(facilityName)</Name>
+				<extFacilityType>
+					<InstanceAndDomainName>
+						<InstanceName>General Practise</InstanceName>
+						<DomainName>ACC Facility Type</DomainName>
+					</InstanceAndDomainName>
+				</extFacilityType>
+			</OCOrganisation>
+		</organisation>
+	</PartyIntegrationDTO>
+	<additional-data-set />
+</update-data>
+</uocf:WSUpdateRequest>

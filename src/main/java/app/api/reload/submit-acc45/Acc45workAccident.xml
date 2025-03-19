@@ -1,0 +1,126 @@
+<ECLS_Message  xmlns="http://xmlschema.acc.co.nz/claimmanagement/ECLS_Message_Schema20160607" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Message_Info>
+<Document_Creation_Date>#(creationDate)</Document_Creation_Date>
+<Document_Sender>Accident HealthCare</Document_Sender>
+<Document_Source_App>MEDTECH-32</Document_Source_App>
+<Document_Source_App_Version>MEDTECH-32Version</Document_Source_App_Version>
+<Document_Receiver>ACC</Document_Receiver>
+</Message_Info>
+<Claim>
+<EMG_Claim_Number>9881047</EMG_Claim_Number>
+<Claim_Form_Number>#(claimFormNumber)</Claim_Form_Number>
+<PMS_Claim_Identifier xsi:nil="true"/>
+<Claim_Lodgement_Date>#(lodgementDate)</Claim_Lodgement_Date>
+<Claim_Type_Code>ACC45</Claim_Type_Code>
+<Claim_Treatment_Provider>
+<ACC_Provider_Number>AA6334</ACC_Provider_Number>
+<Professional_Id xsi:nil="true"/>
+<Facility>Facility from XML</Facility>
+<Agency>Agency from XML</Agency>
+<Provider_Title_Code>Doctor</Provider_Title_Code>
+<Provider_Surname>Meyer</Provider_Surname>
+<Provider_First_Name>Stephanie</Provider_First_Name>
+<Provider_Middle_Names_Initials xsi:nil="true"/>
+<Provider_Address_Type_Code>Business</Provider_Address_Type_Code>
+<Provider_Address_Line1>70 Aorangi Street</Provider_Address_Line1>
+<Provider_Address_Line2 xsi:nil="true"/>
+<Provider_Address_Suburb xsi:nil="true"/>
+<Provider_Address_Town_City>Feilding</Provider_Address_Town_City>
+<Provider_Address_Post_Code xsi:nil="true"/>
+<Provider_Address_Country>New Zealand</Provider_Address_Country>
+<Provider_Type_Code>80</Provider_Type_Code>
+<Provider_Decl_Date>#(declarationDate)</Provider_Decl_Date>
+</Claim_Treatment_Provider>
+<Claim_Patient>
+<ACC_Patient_Identifier xsi:nil="true"/>
+<NHI></NHI>
+<Title_Code>Ms</Title_Code>
+<Surname>#(claimantLastName)</Surname>
+<First_Name>#(claimantFirstName)</First_Name>
+
+<Middle_Names_Initials></Middle_Names_Initials>
+<Date_Of_Birth>#(dobDate)</Date_Of_Birth>
+<Gender_Code>F</Gender_Code>
+<Occupation_Code>5131</Occupation_Code>
+<Work_Phone xsi:nil="true"/>
+<Home_Phone>04 2993314</Home_Phone>
+<Ethnicity_Code>11</Ethnicity_Code>
+<Ethnicity_Other>11</Ethnicity_Other>
+<Auth_Rep_Title_Code xsi:nil="true"/>
+<Auth_Rep_Surname xsi:nil="true"/>
+<Auth_Rep_First_Name xsi:nil="true"/>
+<Auth_Rep_Middle_Names_Initials xsi:nil="true"/>
+<Auth_Rep_Relationship xsi:nil="true"/>
+<Patient_Decl_Date>2023-09-30T00:00:00</Patient_Decl_Date>
+<Claim_Patient_Address>
+<Address_Type_Code>R</Address_Type_Code>
+<Address_Line1>136 Seaview Road</Address_Line1>
+<Address_Line2></Address_Line2>
+<Address_Suburb>Westown</Address_Suburb>
+<Address_Town_City>New Plymouth</Address_Town_City>
+<Address_Post_Code>4310</Address_Post_Code>
+<Address_Country>New Zealand</Address_Country>
+</Claim_Patient_Address>
+</Claim_Patient>
+<Claim_Vendor>
+<ACC_Vendor_Number>10BNHD</ACC_Vendor_Number> 
+<ACC_Facility_Number>4</ACC_Facility_Number>
+</Claim_Vendor>
+<Employment>
+<Paid_Employment_Ind>Y</Paid_Employment_Ind>
+<Employment_Status_Code>1</Employment_Status_Code>
+<Employment_Status_Other xsi:nil="true"/>
+<Employer_Name>Z Norwest Cluster</Employer_Name>
+<Employer_Address_Type_Code></Employer_Address_Type_Code>
+<Employer_Address_Line1 xsi:nil="true"/>
+<Employer_Address_Line2 xsi:nil="true"/>
+<Employer_Address_Suburb xsi:nil="true"/>
+<Employer_Address_Town_City xsi:nil="true"/>
+<Employer_Address_Post_Code xsi:nil="true"/>
+<Employer_Address_Country xsi:nil="true"/>
+<Type_Of_Work_Code>2</Type_Of_Work_Code>
+</Employment>
+<Injury>
+
+<Date_Of_Accident>#(accidentDate)</Date_Of_Accident>
+<Time_Of_Accident>09:00:00</Time_Of_Accident>
+<Accident_Scene_Code>10</Accident_Scene_Code>
+<Accident_Location_Code>371</Accident_Location_Code>
+<Accident_In_NZ_Ind>Y</Accident_In_NZ_Ind>
+<Cause_Of_Injury>#(causeOfInjury)</Cause_Of_Injury>
+<Involves_Vehicle_Ind>N</Involves_Vehicle_Ind>
+<Work_Accident_Ind>N</Work_Accident_Ind>
+<Work_Dept_Area xsi:nil="true"/>
+<Sporting_Injury_Ind>N</Sporting_Injury_Ind>
+<Sport_Name_Code></Sport_Name_Code>
+<Recurring_Injury_Ind>N</Recurring_Injury_Ind>
+</Injury>
+<Injury_Diagnosis>
+<Injury_Comments xsi:nil="true"/>
+<Misadventure_Ind>N</Misadventure_Ind>
+<Previous_Claim_Ind xsi:nil="true"/>
+<Rehabilitation_Code>1</Rehabilitation_Code>
+<Care_Ind>N</Care_Ind>
+<Assistance_Required_Ind>N</Assistance_Required_Ind>
+<Diagnosis_Info>
+<Diagnosis_Code_System>1</Diagnosis_Code_System>
+<Diagnosis_Code>#(medCode)</Diagnosis_Code>
+<Diagnosis_Side_Code>1</Diagnosis_Side_Code>
+<Diagnosis_Severity_Code>Not Stated</Diagnosis_Severity_Code>
+<Diagnosis_Description xsi:nil="true"/>
+</Diagnosis_Info>
+</Injury_Diagnosis>
+<Work_Capacity>
+<Continue_Normal_Work_Ind>Y</Continue_Normal_Work_Ind>
+<Alternative_Work_Ind xsi:nil="true"/>
+<Type_Of_Alt_Work_Code xsi:nil="true"/>
+<Hours_Per_Day_Alt_Work xsi:nil="true"/>
+<Alt_Work_Start_Date xsi:nil="true"/>
+<Alt_Work_Restrictions xsi:nil="true"/>
+<Full_Incapacity_Period xsi:nil="true"/>
+<Full_Incapacity_Period_Type_Code xsi:nil="true"/>
+<Full_Incapacity_Start_Date xsi:nil="true"/>
+<Return_To_Normal_Work_Date xsi:nil="true"/>
+</Work_Capacity>
+</Claim>
+</ECLS_Message>

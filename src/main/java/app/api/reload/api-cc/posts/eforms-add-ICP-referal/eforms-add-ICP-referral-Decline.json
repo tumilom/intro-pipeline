@@ -1,0 +1,239 @@
+{
+    "eformAttributes": [
+        {
+            "name": "status",
+            "attributeType": "enum",
+            "value": {
+                "name": "Declined",
+                "domainName": "ICPStatus"
+            }
+        },
+        {
+            "name": "serviceType",
+            "attributeType": "enum",
+            "value": {
+                "name": "MSK",
+                "domainName": "ICPServiceType"
+            }
+        },
+        {
+            "name": "patientDOB",
+            "attributeType": "date",
+            "value": "2003-05-10"
+        },
+        {
+            "name": "claimNumber",
+            "attributeType": "string",
+            "value": "#(claimNumber)"
+        },
+        {
+            "name": "vendorId",
+            "attributeType": "string",
+            "value": "AA3573"
+        },
+        {
+            "name": "providerId",
+            "attributeType": "string",
+            "value": "N29625"
+        },
+        {
+            "name": "triageDate",
+            "attributeType": "date",
+            "value": "2023-01-19"
+        },
+        {
+            "name": "periodStart",
+            "attributeType": "date",
+            "value": "2023-01-19"
+        },
+        {
+            "name": "declineDate",
+            "attributeType": "date",
+            "value": "2023-01-19"
+        },
+        {
+            "name": "declineRecomendations",
+            "attributeType": "string",
+            "value": "testRecomendation"
+        },
+        {
+            "name": "declineReason",
+            "attributeType": "enum",
+            "value": {
+                "name": "Accredited Employer (work injury)",
+                "domainName": "ICPDeclineReason"
+            }
+        },
+        {
+            "name": "dateRefReceivedSupp",
+            "attributeType": "date",
+            "value": "2023-01-19"
+        },
+        {
+            "name": "referralSource",
+            "attributeType": "enum",
+            "value": {
+                "name": "ACC referral",
+                "domainName": "ICPReferralSource"
+            }
+        },
+        {
+            "name": "clientParticAgreed",
+            "attributeType": "enum",
+            "value": {
+                "name": "True",
+                "domainName": "ICPBoolean"
+            }
+        },
+        {
+            "name": "accClientAuthority",
+            "attributeType": "enum",
+            "value": {
+                "name": "True",
+                "domainName": "ICPBoolean"
+            }
+        },
+        {
+            "name": "serviceBundle",
+            "attributeType": "enum",
+            "value": {
+                "name": "Rehab Bundle Payment for Knee Arthroscopy and Debridement Level 1",
+                "domainName": "ICPServiceBundle"
+            }
+        },
+        {
+            "name": "exceptionalFundingRequired",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleActiveParticipation",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleComorbidityFactors",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleCulturalSupport",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleEmployment",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleEquitableAccess",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleFinances",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleHealthLiteracy",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleHousingAccommodation",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleMedicationUse",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationalePatientResilience",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleNumberOfDisciplines",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleReturnToDailyLife",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleReturnToSport",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleReturnToWorkSupport",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleSocialSupport",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleTravel",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleWorkplaceSupport",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleOther",
+            "attributeType": "boolean",
+            "value": true
+        },
+        {
+            "name": "rationaleSupportingRationale",
+            "attributeType": "string",
+            "value": "Rationale Supporting Rationale"
+        },
+        {
+            "name": "exceptionBundleDetails",
+            "attributeType": "enum",
+            "value": {
+                "name": "ITest1",
+                "domainName": "ICPExceptionBundleDetails"
+            }
+        },
+        {
+            "name": "icpComplexityTotalScore",
+            "attributeType": "enum",
+            "value": {
+                "name": "Low",
+                "domainName": "ICPComplexityScore"
+            }
+        },
+        {
+            "name": "comorbidScore",
+            "attributeType": "enum",
+            "value": {
+                "name": "Medium",
+                "domainName": "ICPComplexityScore"
+            }
+        },
+        {
+            "name": "comorbidSubFactorsScore",
+            "attributeType": "enum",
+            "value": {
+                "name": "High",
+                "domainName": "ICPComplexityScore"
+            }
+        }
+    ],
+    "isKeyDocument": true,
+    "name": "ICP Referral"
+}

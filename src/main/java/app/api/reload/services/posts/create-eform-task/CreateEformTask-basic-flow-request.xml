@@ -1,0 +1,41 @@
+<p:WSUpdateRequest
+    xmlns:p="http://www.fineos.com/wscomposer/CreateEformTask"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <config-name>CreateEformTask</config-name>
+    <update-data>
+        <additional-data-set>
+            <additional-data>
+                <name>Task_Type</name>
+                <value>Tax Year Earnings Received</value>
+            </additional-data>
+            <additional-data>
+                <name>Document_Type</name>
+                <value>Tax Year Earnings Received</value>
+            </additional-data>
+            <additional-data>
+                <name>Employee_IRD</name>
+                <value>#(claimantIRDNo)</value>
+            </additional-data>
+            <additional-data>
+                <name>Levy_Year</name>
+                <value>2024</value>
+            </additional-data>
+            <additional-data>
+                <name>Total_Earnings_Selfemp</name>
+                <value>107012</value>
+            </additional-data>
+            <additional-data>
+                <name>Total_Earnings_Shareholder</name>
+                <value>0</value>
+            </additional-data>
+            <additional-data>
+                <name>Employee_ACC_Id</name>
+                <value>#(claimantCustomerNo)</value>
+            </additional-data>
+            <additional-data>
+                <name>Employment_Status</name>
+                <value>Full Time</value>
+            </additional-data>
+        </additional-data-set>
+    </update-data>
+</p:WSUpdateRequest>

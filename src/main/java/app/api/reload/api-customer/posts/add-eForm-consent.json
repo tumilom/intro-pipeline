@@ -1,0 +1,24 @@
+[
+    {
+        "name": "WhoGaveConsent",
+        "stringValue": "Ryan TEST WITHDRAWN"
+    },
+    {
+        "name": "DateOfConsent",
+        "dateValue": "2024-01-22"
+    },
+    {
+        "name": "RelationshipToClient",
+        "enumValue": {
+            "domainName": "Consent Relationship To Client",
+            "instanceValue": "Client"
+        }
+    },
+    {
+        "name": "Consent",
+        "enumValue": {
+            "domainName": "Claim Consent Type",
+            "instanceValue": "Withdrawn"
+        }
+    }
+]

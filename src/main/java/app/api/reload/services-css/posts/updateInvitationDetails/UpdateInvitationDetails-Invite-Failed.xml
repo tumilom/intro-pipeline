@@ -1,0 +1,21 @@
+<p:WSUpdateRequest
+    xmlns:p="http://www.fineos.com/wscomposer/UpdateInvitationDetails"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <config-name>UpdateInvitationDetails</config-name>
+    <update-data>      
+        <additional-data-set>
+            <additional-data>
+                <name>PARAM_STR_CUSTOMERNO</name>
+                <value>#(eosCustomerNo)</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_STR_CASENUMBER</name>
+                <value>#(caseNo)</value>
+            </additional-data>
+               <additional-data>
+                  <name>PARAM_STR_INVITE_STATUS</name>
+                  <value>#(inviteStatus)</value>
+            </additional-data>
+        </additional-data-set>
+    </update-data>
+</p:WSUpdateRequest>

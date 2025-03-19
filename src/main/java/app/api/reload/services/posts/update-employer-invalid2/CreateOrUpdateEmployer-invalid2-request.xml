@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coue:WSUpdateRequest xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:coue="http://www.fineos.com/wscomposer/CreateOrUpdateEmployer" >
+ <config-name>Anything will do for REST - config-name, userid are passed as http request parameter</config-name>
+   <update-data>
+           <Employer>
+               <customerNmbr>#(employerId)</customerNmbr>
+               <notValidForClaimRegIndicator>#(notValidForClaimRegIndicator)</notValidForClaimRegIndicator>
+               <lastUpdate>#(dateNow)</lastUpdate>
+               <partyAddresses>
+				  <Address>
+                     <addressType>
+                        <InstanceDomainAndFullId>
+                           <InstanceName>Home</InstanceName>
+                           <DomainName>Usage</DomainName>
+                           <FullId>1088001</FullId>
+                        </InstanceDomainAndFullId>
+                     </addressType>
+                     <versions>
+                        <AddressVersion>
+                           <postalAddress>
+                              <AddressDetails>
+                                 <addressLine1>158D Marjory Close</addressLine1>
+                                 <addressLine2>Broadmeadows</addressLine2>
+                                 <suburb/>
+                                 <townOrCity/>
+                                 <additionalRecipientReference/>
+                                 <state/>
+                                 <Country>
+                                    <InstanceDomainAndFullId>
+                                       <InstanceName>New Zealand</InstanceName>
+                                       <DomainName>Country</DomainName>
+                                       <FullId>672029</FullId>
+                                    </InstanceDomainAndFullId>
+                                 </Country>
+                                 <nzPostcode>8252</nzPostcode>
+                                 <addressVerificationStatus>
+                                    <InstanceDomainAndFullId>
+                                       <InstanceName>Verified</InstanceName>
+                                       <DomainName>VerificationStatus</DomainName>
+                                       <FullId>7808001</FullId>
+                                    </InstanceDomainAndFullId>
+                                 </addressVerificationStatus>
+                              </AddressDetails>
+                           </postalAddress>
+                           <contactMediums/>
+                        </AddressVersion>
+                     </versions>
+                  </Address>
+               </partyAddresses>
+               <pointsOfContact>
+                  <AccountManager>
+                     <ContactName>Tania #(employerId)</ContactName>
+                     <contactMedium>
+                        <Phone_Mobile_Fax>
+                           <ContactMethod>
+                              <InstanceDomainAndFullId>
+                                 <InstanceName>Home Phone</InstanceName>
+                                 <DomainName>Contact Medium</DomainName>
+                                 <FullId>1632001</FullId>
+                              </InstanceDomainAndFullId>
+                           </ContactMethod>
+						   <AreaCode>34</AreaCode>
+						   <Extension>33</Extension>
+						   <IntCode>64</IntCode>
+                           <TelephoneNo>3279152</TelephoneNo>
+                        </Phone_Mobile_Fax>
+                        <Phone_Mobile_Fax>
+                           <ContactMethod>
+                              <InstanceDomainAndFullId>
+                                 <InstanceName>Alt Mobile</InstanceName>
+                                 <DomainName>Contact Medium</DomainName>
+                                 <FullId>1662005</FullId>
+                              </InstanceDomainAndFullId>
+                           </ContactMethod>
+						   <AreaCode>03</AreaCode>
+						   <Extension>22</Extension>
+						   <IntCode>63</IntCode>
+                           <TelephoneNo>3249152</TelephoneNo>
+                        </Phone_Mobile_Fax>
+                     </contactMedium>
+                  </AccountManager>
+               </pointsOfContact>
+               <accSuffix>
+                  <InstanceAndDomainName>
+                     <InstanceName>#(businessTypeName)</InstanceName>
+                     <DomainName>Organisation Business Type</DomainName>                    
+                  </InstanceAndDomainName>
+               </accSuffix>
+               <tradingName>#(tradingName)</tradingName>
+               <nzbn>#(employerId)</nzbn>
+               <accreditedEmpInd/>
+               <empReimbAgreementInd>#(empReimbAgreementInd)</empReimbAgreementInd>
+               <names>
+                  <OCOrganisationName>
+                     <levyClientName>#(levyClientName)</levyClientName>
+                  </OCOrganisationName>
+               </names>
+            </Employer>
+            <!--Optional:-->
+            <additional-data-set>
+               <!--Zero or more repetitions:-->
+               <additional-data>
+                  <name>Correspondence</name>
+                  <value>1088002</value>
+               </additional-data>
+            </additional-data-set>
+         </update-data>
+</coue:WSUpdateRequest>

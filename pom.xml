@@ -112,6 +112,18 @@
     </build>
 
     <profiles>
+	
+	 <profile> 
+        <id>dt1</id>
+		<properties>
+			<oauthClientId>9elh81k8pt5sp3t92va5mk88</oauthClientId>
+			<oauthClientSecret>1o5l8epc8o8dqldl4rq4o3b4ujcbi1rilb8522n46drg5acm1vml</oauthClientSecret>
+			<envRunnerId>MT</envRunnerId>
+			<envBatchId>005</envBatchId>
+			<envName>dt1</envName>
+		</properties>
+	</profile> 
+	
         <profile> 
             <id>gatling</id>
             <dependencies>

@@ -1,0 +1,39 @@
+{
+    "eformAttributes": [
+        {
+            "name": "claimNumber",
+            "attributeType": "string",
+             "value": "#(claimNumber)"
+        },
+        {
+            "name": "providerId",
+            "attributeType": "string",
+            "value": "AA6334"
+        },
+        {
+            "name": "vendorId",
+            "attributeType": "string",
+            "value": "VAB908"
+        },
+        {
+            "name": "patientDOB",
+            "attributeType": "date",
+            "value": "2000-01-19"
+        },
+        {
+            "name": "additionalDetails",
+            "attributeType": "string",
+            "value": "Up to 250 characters- just update Up to 250 characters- just update Up to 250 characters- just update"
+        },
+        {
+            "name": "additionalSupportsRequired",
+            "attributeType": "boolean",
+            "value": false
+        },
+        {
+            "name": "outcomeSummary",
+            "attributeType": "string",
+            "value": "Test"
+        }
+    ]
+ }

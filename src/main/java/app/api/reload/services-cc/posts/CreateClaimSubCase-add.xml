@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:WSUpdateRequest xmlns:p="http://www.fineos.com/wscomposer/CreateClaimSubCase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <config-name>CreateClaimSubCase</config-name>
+    <update-data>
+        <additional-data-set>
+            <additional-data>
+                <name>PARAM_STR_CASENUMBER</name>
+                <value>#(parentCaseNumber)</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_STR_CASETYPENAME</name>
+                <value>#(subCaseCaseTypeName)</value>
+            </additional-data>
+			<additional-data>
+                <name>PARAM_STR_USERID</name>
+                <value>YANGS</value>
+            </additional-data>
+        </additional-data-set>
+    </update-data>
+</p:WSUpdateRequest>

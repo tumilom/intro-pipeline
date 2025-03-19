@@ -1,0 +1,12 @@
+<p:WSUpdateRequest
+	xmlns:p="http://www.fineos.com/wscomposer/UpdateAmendmentStatusV1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<config-name>UpdateAmendmentStatusV1</config-name>
+	<update-data>
+		<ACCEIAmendmentStatus>
+			<AmendmentStatus>#(status)</AmendmentStatus>
+			<ReferenceNumber>#(refNumber)</ReferenceNumber>
+			<SubmissionKey>#(submissionKey)</SubmissionKey>
+    	</ACCEIAmendmentStatus>		
+	</update-data>
+</p:WSUpdateRequest>

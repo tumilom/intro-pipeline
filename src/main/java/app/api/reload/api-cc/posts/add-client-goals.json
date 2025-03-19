@@ -1,0 +1,26 @@
+{
+    "clientActions": "",
+    "creationDate": #(creationDate),
+    "decisionInfo": "Karate testing",
+    "name": "test123",
+    "outcomeDate": #(outcomeDate),
+    "outcomeNotes": "",
+    "description": "Karate testing description",
+    "otherActions": "",
+    "importance": {
+        "name": "Unknown",
+        "fullId": 77184000
+    },
+    "achievementTimeFrame": {
+        "name": "Now",
+        "fullId": 77760000
+    },
+    "outcome": {
+        "name": "Open",
+        "fullId": 77296008
+    },
+    "insurerDecision": {
+        "name": "Unknown",
+        "fullId": 77856000
+    }
+}

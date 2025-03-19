@@ -1,0 +1,325 @@
+<coue:WSUpdateRequest xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:coue="http://www.fineos.com/wscomposer/UpdateOrCreateProviderv1">
+   <config-name>Anything will do for REST - config-name, userid are passed as http request parameter</config-name>
+   <update-data>
+      <PartyIntegrationDTO>  
+	  <EffectiveDate>#(dateNow)</EffectiveDate>
+	  <PartyTypeFlag>Provider</PartyTypeFlag>
+	  <SourceSystemName>MFP</SourceSystemName>
+         <person>
+           <OCPerson>
+    
+      <CustomerNo>#(providerId)</CustomerNo>
+      <extLocation>
+         <InstanceAndDomainName>
+            <InstanceName>#(extLocationInstanceName)</InstanceName>
+            <DomainName>ACC Accident Location</DomainName>
+        
+         </InstanceAndDomainName>
+      </extLocation>
+      <extStatus>
+         <InstanceAndDomainName>
+            <InstanceName>#(extStatus)</InstanceName>
+            <DomainName>ACC Party Status</DomainName>
+         </InstanceAndDomainName>
+      </extStatus>
+      <extStatusReason>
+         <InstanceAndDomainName>
+            <InstanceName>#(extStatusReason)</InstanceName>
+            <DomainName>ACC Party Status Reason</DomainName>
+        
+         </InstanceAndDomainName>
+      </extStatusReason>
+      <partyAddresses>
+         <OCPartyAddress>
+       
+            <Usage>
+               <InstanceAndDomainName>
+                  <InstanceName>Business</InstanceName>
+                  <DomainName>Usage</DomainName>
+            
+               </InstanceAndDomainName>
+            </Usage>
+            <versions>
+               <OCPartyAddressVersion>
+            
+                  <EffectiveFrom>2024-04-06T07:24:13</EffectiveFrom>
+                  <postalAddress>
+                     <OCPostalAddress>
+               
+                        <Address1>Turuki Health Care</Address1>
+                        <Address2>19 Aitken Street</Address2>
+                        <Address3>Thorndon</Address3>
+                        <Address4>Wellington</Address4>
+                        <Address7/>
+                        <Country>
+                           <InstanceAndDomainName>
+                              <InstanceName>New Zealand</InstanceName>
+                              <DomainName>Country</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </Country>
+                        <PostCode>6011</PostCode>
+                        <VerificationStatus>
+                           <InstanceAndDomainName>
+                              <InstanceName>Verified</InstanceName>
+                              <DomainName>VerificationStatus</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </VerificationStatus>
+                        <extExternalPostalAddrId>25470084</extExternalPostalAddrId>
+                        <verificationHistory/>
+                     </OCPostalAddress>
+                  </postalAddress>
+                  <contactMediums>
+                     <OCFlatContact>
+                
+                        <ContactMethod>
+                           <InstanceAndDomainName>
+                              <InstanceName>Email</InstanceName>
+                              <DomainName>Contact Medium</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </ContactMethod>
+                        <VerificationStatus>
+                           <InstanceAndDomainName>
+                              <InstanceName>Verified</InstanceName>
+                              <DomainName>VerificationStatus</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </VerificationStatus>
+                        <extExternalContactMedId>25470082</extExternalContactMedId>
+                        <verificationHistory>
+                           <OCVerificationChange>
+                    
+                              <ChangeDate>#(dateNow)</ChangeDate>
+                              <VerificationStatus>Verified</VerificationStatus>
+                           </OCVerificationChange>
+                        </verificationHistory>
+                        <FreeFormatAddress>mariusz.tumilowicz@acc.co.nz</FreeFormatAddress>
+                     </OCFlatContact>
+                     <OCPhone>
+                
+                        <ContactMethod>
+                           <InstanceAndDomainName>
+                              <InstanceName>Fax</InstanceName>
+                              <DomainName>Contact Medium</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </ContactMethod>
+                        <VerificationStatus>
+                           <InstanceAndDomainName>
+                              <InstanceName>Unverified</InstanceName>
+                              <DomainName>VerificationStatus</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </VerificationStatus>
+                        <extExternalContactMedId>25470082</extExternalContactMedId>
+                        <verificationHistory>
+						   <OCVerificationChange>
+                    
+                              <ChangeDate>2018-04-06T07:24:13</ChangeDate>
+                              <VerificationStatus>Unverified</VerificationStatus>
+                           </OCVerificationChange>
+                        </verificationHistory>
+                        <TelephoneNo>0439928881</TelephoneNo>
+                     </OCPhone>
+                     <OCPhone>
+                         <ContactMethod>
+                           <InstanceAndDomainName>
+                              <InstanceName>Work Phone</InstanceName>
+                              <DomainName>Contact Medium</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </ContactMethod>
+                        <VerificationStatus>
+                           <InstanceAndDomainName>
+                              <InstanceName>Verified</InstanceName>
+                              <DomainName>VerificationStatus</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </VerificationStatus>
+                        <extExternalContactMedId>25470082</extExternalContactMedId>
+                        <verificationHistory>
+						<OCVerificationChange>
+						
+                              <ChangeDate>#(dateNow)</ChangeDate>
+                              <VerificationStatus>Verified</VerificationStatus>
+                           </OCVerificationChange>
+                        </verificationHistory>
+                        <TelephoneNo>0455667798</TelephoneNo>
+                     </OCPhone>
+                  </contactMediums>
+               </OCPartyAddressVersion>
+            </versions>
+         </OCPartyAddress>
+         <OCPartyAddress>
+        
+            <Usage>
+               <InstanceAndDomainName>
+                  <InstanceName>Alternate</InstanceName>
+                  <DomainName>Usage</DomainName>
+            
+               </InstanceAndDomainName>
+            </Usage>
+            <versions>
+               <OCPartyAddressVersion>
+            
+                  <EffectiveFrom>2018-04-06T07:24:13</EffectiveFrom>
+                  <postalAddress>
+                     <OCPostalAddress>
+                        <Address1>Boulcott Health Care</Address1>
+                        <Address2>PO Box 99002</Address2>
+                        <Address3>Thorndon</Address3>
+                        <Address4>Wellington</Address4>
+                        <Address7/>
+                        <Country>
+                           <InstanceAndDomainName>
+                              <InstanceName>New Zealand</InstanceName>
+                              <DomainName>Country</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </Country>
+                        <PostCode>6053</PostCode>
+                        <VerificationStatus>
+                           <InstanceAndDomainName>
+                              <InstanceName>Verified</InstanceName>
+                              <DomainName>VerificationStatus</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </VerificationStatus>
+                        <extExternalPostalAddrId>25470085</extExternalPostalAddrId>
+                        <verificationHistory/>
+                     </OCPostalAddress>
+                  </postalAddress>
+				  
+				  <contactMediums>
+                     <OCFlatContact>
+                
+                        <ContactMethod>
+                           <InstanceAndDomainName>
+                              <InstanceName>Email</InstanceName>
+                              <DomainName>Contact Medium</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </ContactMethod>
+                        <VerificationStatus>
+                           <InstanceAndDomainName>
+                              <InstanceName>Unverified</InstanceName>
+                              <DomainName>VerificationStatus</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </VerificationStatus>
+                        <extExternalContactMedId>25470082</extExternalContactMedId>
+                        <verificationHistory>
+                           <OCVerificationChange>
+                    
+                              <ChangeDate>2018-04-06T07:24:13</ChangeDate>
+                              <VerificationStatus>Verified</VerificationStatus>
+                           </OCVerificationChange>
+                        </verificationHistory>
+                        <FreeFormatAddress>boulcoutt@health.co.nz</FreeFormatAddress>
+                     </OCFlatContact>
+                     <OCPhone>
+                
+                        <ContactMethod>
+                           <InstanceAndDomainName>
+                              <InstanceName>Fax</InstanceName>
+                              <DomainName>Contact Medium</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </ContactMethod>
+                        <VerificationStatus>
+                           <InstanceAndDomainName>
+                              <InstanceName>Verified</InstanceName>
+                              <DomainName>VerificationStatus</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </VerificationStatus>
+                        <extExternalContactMedId>25470082</extExternalContactMedId>
+                        <verificationHistory>
+						   <OCVerificationChange>
+                    
+                              <ChangeDate>#(dateNow)</ChangeDate>
+                              <VerificationStatus>Verified</VerificationStatus>
+                           </OCVerificationChange>
+                        </verificationHistory>
+                        <TelephoneNo>045568881</TelephoneNo>
+                     </OCPhone>
+                     <OCPhone>
+                         <ContactMethod>
+                           <InstanceAndDomainName>
+                              <InstanceName>Work Phone</InstanceName>
+                              <DomainName>Contact Medium</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </ContactMethod>
+                        <VerificationStatus>
+                           <InstanceAndDomainName>
+                              <InstanceName>Unverified</InstanceName>
+                              <DomainName>VerificationStatus</DomainName>
+                    
+                           </InstanceAndDomainName>
+                        </VerificationStatus>
+                        <extExternalContactMedId>25470082</extExternalContactMedId>
+                        <verificationHistory>
+						<OCVerificationChange>
+						
+                              <ChangeDate>#(dateNow)</ChangeDate>
+                              <VerificationStatus>Unverified</VerificationStatus>
+                           </OCVerificationChange>
+                        </verificationHistory>
+                        <TelephoneNo>0498887744</TelephoneNo>
+                     </OCPhone>
+                  </contactMediums>
+                
+               </OCPartyAddressVersion>
+            </versions>
+         </OCPartyAddress>
+      </partyAddresses>
+      <partyClassifications>
+         <OCClassification>
+             <extCategCode>0</extCategCode>
+            <extCategDesc>Specialising in babies and kids</extCategDesc>
+            <extClassCode>#(extClassCode)</extClassCode>
+            <extClassDesc>#(extClassDesc)</extClassDesc>
+            <extSubCategCode>0</extSubCategCode>
+            <extSubCategDesc>Babies</extSubCategDesc>
+         </OCClassification>
+      </partyClassifications>
+      <FirstNames>Benjamin</FirstNames>
+      <LastName>Shaw</LastName>
+      <SecondName>Tin Aung</SecondName>
+      <Sex>
+         <InstanceAndDomainName>
+            <InstanceName>Male</InstanceName>
+            <DomainName>Sex</DomainName>
+        
+         </InstanceAndDomainName>
+      </Sex>
+      <Title>
+         <InstanceAndDomainName>
+            <InstanceName>Dr</InstanceName>
+            <DomainName>Title</DomainName>
+        
+         </InstanceAndDomainName>
+      </Title>
+      <extRegisteredForServices>#(extRegisteredForServices)</extRegisteredForServices>
+  </OCPerson>
+         </person>
+      </PartyIntegrationDTO>
+      <!--Optional:-->
+      <additional-data-set>
+         <!--Zero or more repetitions:-->
+         <additional-data>
+            <name>provider-ethnicity</name>
+            <value>Asian NFD</value>
+         </additional-data>
+		 <!-- one of Work Phone,Mobile,Fax, Email -->
+		 <additional-data>
+            <name>preferred-contact-medium</name>
+            <value>Work Phone</value>
+         </additional-data>
+		 
+      </additional-data-set>
+   </update-data>
+</coue:WSUpdateRequest>

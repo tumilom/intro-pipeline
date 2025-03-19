@@ -1,0 +1,149 @@
+<ACC18MedCert xmlns="http://xmlschema-dev.ds.acc.co.nz/ACC1820100312">
+<FormNumber>#(dateNow)</FormNumber>
+       <FormVersionNumber>0</FormVersionNumber>
+       <ProviderDetails>
+        <ACCHPIProviderIdentifier>#(providerIdentifier)</ACCHPIProviderIdentifier>
+		<DeclarationDate>#(declarationDate)</DeclarationDate>
+        <AdditionalProviderDetail>
+         <PersonName>
+          <Title>String</Title>
+          <FirstName>Abigail</FirstName>
+          <MiddleNames></MiddleNames>
+          <Surname>Smith</Surname>
+         </PersonName>
+         <ProviderAddress>
+          <AddressInformation>
+           <AddressUsage>Residential</AddressUsage>
+           <AddressLine>String</AddressLine>
+           <Suburb>String</Suburb>
+           <City>1</City>
+           <Country>String</Country>
+           <PostCode>1</PostCode>
+          </AddressInformation>
+         </ProviderAddress>
+         <ContactInformation>
+          <ContactPhoneNumber>
+           <ContactPhoneType>Home Phone</ContactPhoneType>
+           <PhoneNumber>123456</PhoneNumber>
+          </ContactPhoneNumber>
+          <EmailAddress>String</EmailAddress>
+         </ContactInformation>
+         <PracticeName>String</PracticeName>
+         <ProviderInformation>
+          <Occupation>String</Occupation>
+          <HPINumberVendor>10BNHD</HPINumberVendor>
+          <HPINumberFacility></HPINumberFacility>
+         </ProviderInformation>
+        </AdditionalProviderDetail>
+       </ProviderDetails>
+       <PatientDetail>
+        <PatientBaseDetail>
+         <ACC45ClaimNumber>#(acc45ClaimNumber)</ACC45ClaimNumber>
+         <PersonName>
+          <Title>Ms</Title>
+          <FirstName>#(claimantFirstName)</FirstName>
+          <Surname>#(claimantLastName)</Surname>
+         </PersonName>
+         <PersonalDetail>
+		  <DateOfBirth>#(dobDate)</DateOfBirth>
+          <NHINumber></NHINumber>
+         </PersonalDetail>
+        </PatientBaseDetail>
+        <AdditionalPatientDetail>
+         <PatientAddress>
+          <AddressInformation>
+           <AddressUsage>Residential</AddressUsage>
+           <AddressLine>String</AddressLine>
+           <Suburb>String</Suburb>
+           <City>1</City>
+           <Country>String</Country>
+           <PostCode>1</PostCode>
+          </AddressInformation>
+         </PatientAddress>
+         <ContactInformation>
+          <ContactPhoneNumber>
+           <ContactPhoneType>Home Phone</ContactPhoneType>
+           <PhoneNumber>02102454</PhoneNumber>
+          </ContactPhoneNumber>
+          <EmailAddress>String</EmailAddress>
+         </ContactInformation>
+         <DateOfInjury>1967-08-13</DateOfInjury>
+        </AdditionalPatientDetail>
+       </PatientDetail>
+       <InjuryDiagnosis>
+        <InjuryDetail>
+         <DiagnosisAction>add</DiagnosisAction>
+         <DiagnosisPrimary>true</DiagnosisPrimary>
+         <DiagnosisDate>2011-11-21</DiagnosisDate>
+         <DiagnosisCode>sl8l.</DiagnosisCode>
+         <DiagnosisDescription>Test</DiagnosisDescription>
+         <DiagnosisComment>String</DiagnosisComment>
+        </InjuryDetail>
+       </InjuryDiagnosis>
+       <WorkDetail>
+<IncapacityType>
+<FullyUnfitToWork>
+<DateRange>
+<FromDate>#(fullyUnfitFromDate)</FromDate>
+<ToDate>#(fullyUnfitToDate)</ToDate>                
+</DateRange>
+<UnfitToWorkComment>String comment unfit to work comment</UnfitToWorkComment>
+</FullyUnfitToWork>
+</IncapacityType>
+        <BetterAtWork>
+         <BetterAtWorkCoordinator>true</BetterAtWorkCoordinator>
+         <EmployerDetails>
+          <Employer>
+           <EmployerName>String</EmployerName>
+           <ContactInformation>
+            <ContactPhoneNumber>
+             <ContactPhoneType>Home Phone</ContactPhoneType>
+             <PhoneNumber>02155555555</PhoneNumber>
+            </ContactPhoneNumber>
+            <EmailAddress>String</EmailAddress>
+           </ContactInformation>
+           <EmployerAddress>
+            <EmployerAddressInformation>
+             <EmployerAddressUsage>Residential</EmployerAddressUsage>
+             <EmployerAddressLine>String</EmployerAddressLine>
+             <EmployerSuburb>String</EmployerSuburb>
+             <EmployerCity>String</EmployerCity>
+             <EmployerCountry>New Zealand</EmployerCountry>
+             <EmployerPostCode>1</EmployerPostCode>
+            </EmployerAddressInformation>
+           </EmployerAddress>
+          </Employer>
+          <PatientOccupation>String</PatientOccupation>
+          <EmployerInsurer>String</EmployerInsurer>
+         </EmployerDetails>
+        </BetterAtWork>
+        <AdditionalWorkDetail>
+         <ReviewIncapacity>
+          <ReviewDate>1967-08-13</ReviewDate>
+          <ReviewDateComments>String</ReviewDateComments>
+         </ReviewIncapacity>
+         <ComplicationsAssistance>
+          <AssistanceRequired>
+           <MakingExpectedProgress>Y</MakingExpectedProgress>   
+           <OtherAssistanceComments>String</OtherAssistanceComments>
+          </AssistanceRequired>
+         </ComplicationsAssistance>
+         <CaseManagerContact>
+          <ContactAppointment>
+           <ContactPerson>String</ContactPerson>
+           <ContactMonday>true</ContactMonday>
+           <ContactTuesday>true</ContactTuesday>
+           <ContactWednesday>true</ContactWednesday>
+           <ContactThursday>true</ContactThursday>
+           <ContactFriday>true</ContactFriday>
+           <ContactComment>Comments...124 test</ContactComment>
+          </ContactAppointment>
+         </CaseManagerContact>
+        </AdditionalWorkDetail>
+       </WorkDetail>
+       <AdditionalInformationPairs>
+        <ElementName>String</ElementName>
+        <ElementValue>String</ElementValue>
+        <ElementDataType>String</ElementDataType>
+       </AdditionalInformationPairs>
+</ACC18MedCert>

@@ -1,0 +1,3 @@
+seq,defType,causeOfInjury,claimantFirstName,lastname,lodgementOffset,dobOffset,medCode,taxType,irdNo,adjType,entitlementName,unitVal,rateVal,roleName,taxCode,taxRate,withHoldingStatus
+28,withIncapacity,R hand caught between Test planks of wood,Themote,Tester,21,2800,Eu341,M SL,123123123,Home Based Rehabilitation Taxable Instruction,Childcare - Exceptional Circumstance,5,25,Claimant,WT,10,Individual
+29,withIncapacity,R hand caught between Test planks of wood,Themote,Tester02,21,2800,Eu341,M SL,123123123,Home Based Rehabilitation Taxable Instruction,Childcare - Exceptional Circumstance,15,30,Claimant,WT,15,Individual

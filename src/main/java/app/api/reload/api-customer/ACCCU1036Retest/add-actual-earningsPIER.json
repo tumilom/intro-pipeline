@@ -1,0 +1,23 @@
+{
+	"earningsType": {
+		"fullId": 7136005,
+		"name": "Post Incapacity Earnings Rate"
+	},
+	"effectiveDate": "2024-09-30",
+	"endDate": "2024-10-06",
+    "grossAmount": {
+        "amountMinorUnits": 0
+    },
+    "extensions": {
+	    "extEstimatedGross":{
+             "amountMinorUnits": 0,
+              "currency": "---",
+        "scale": 2
+        },
+        "extPIEHourlyRate":{
+             "amountMinorUnits": 0,
+              "currency": "---",
+        "scale": 2
+        }
+    }
+}

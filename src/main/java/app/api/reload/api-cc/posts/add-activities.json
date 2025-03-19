@@ -1,0 +1,5 @@
+{
+  "workType": "AUTO: Contact Provider",
+  "description": "Karate Testing",
+  "targetDateTime": #(targetDate),
+}

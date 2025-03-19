@@ -1,0 +1,25 @@
+<p:WSUpdateRequest 
+    xmlns:p="http://www.fineos.com/wscomposer/UpdateMyAccManagedIndicatorStatus"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <config-name>config-name</config-name>
+    <update-data>
+        <ACCIndicator>
+            <Status>
+                <FullId>448992028</FullId>
+            </Status>
+            <Type>
+                <FullId>448960028</FullId>
+            </Type>
+        </ACCIndicator>
+        <additional-data-set>
+            <additional-data>
+                <name>PARAM_STR_USERID</name>
+                <value>#(myACCCustomerNo)</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_STR_CLAIMNO</name>
+                <value>#(claimNo)</value>
+            </additional-data>
+        </additional-data-set>
+    </update-data>
+</p:WSUpdateRequest>

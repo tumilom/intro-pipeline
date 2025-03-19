@@ -1,0 +1,21 @@
+<tns:WSUpdateRequest xmlns:tns="http://www.fineos.com/wscomposer/CreateOrUpdateClaimantEmail">
+    <config-name>CreateOrUpdateClaimantEmail</config-name>
+    <update-data>
+        <OCFlatContact>
+            <VerificationStatus>
+                <InstanceDomainAndFullId>
+                    <InstanceName>Verified</InstanceName>
+                    <DomainName>VerificationStatus</DomainName>
+                    <FullId>7808001</FullId>
+                </InstanceDomainAndFullId>
+            </VerificationStatus>
+            <FreeFormatAddress>Verified.smith@icloud.com</FreeFormatAddress>
+        </OCFlatContact>
+        <additional-data-set>
+            <additional-data>
+                <name>PARAM_STR_CUSTOMERNO</name>
+                <value>#(eosCustomerNo)</value>
+            </additional-data>
+        </additional-data-set>
+    </update-data>
+</tns:WSUpdateRequest>

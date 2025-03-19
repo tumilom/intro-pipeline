@@ -1,0 +1,26 @@
+<oper:WSUpdateRequest xmlns:oper="http://www.fineos.com/wscomposer/CreateCustomerTaxCodes"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <config-name>CreateCustomerTaxCodes</config-name>
+<update-data>
+<OLTaxTypeDetails>
+	<EffectiveDate>#(effectiveDate)</EffectiveDate>
+	<TaxType>       
+		  <InstanceDomainAndFullId>
+                     <InstanceName>M</InstanceName>
+                     <DomainName>TaxType</DomainName>
+                     <FullId>74303001</FullId>
+                  </InstanceDomainAndFullId>
+	 </TaxType>
+ </OLTaxTypeDetails>
+	   <additional-data-set>
+		   <additional-data>
+				<name>PARAM_STR_CUSTOMERNO</name>
+				 <value>#(customerNo)</value>
+		   </additional-data>
+		   <additional-data>
+				<name>PARAM_STR_USERID</name>
+				<value>#(userId)</value>
+		   </additional-data>
+	   </additional-data-set> 
+</update-data>
+      </oper:WSUpdateRequest>

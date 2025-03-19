@@ -1,0 +1,2 @@
+seq,defType,causeOfInjury,claimantFirstName,lastname,lodgementOffset,dobOffset,medCode,unfitFromOffset,unfitToOffset,providerIdentifier
+15,AutoAccept,Twisted ankle while going down stairs sensitive cd:acceptmet,Sally,Taylora,21,1900,Eu341,2,87,AA6334

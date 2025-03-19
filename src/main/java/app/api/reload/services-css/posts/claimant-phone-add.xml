@@ -1,0 +1,35 @@
+<NS1:WSUpdateRequest xmlns:NS1="http://www.fineos.com/wscomposer/CreateOrUpdateClaimantPhone">
+    <config-name>CreateOrUpdateClaimantPhone</config-name>
+    <update-data>
+        <OCPhone>
+            <ContactMethod>
+                <InstanceDomainAndFullId>
+                    <InstanceName>Work Phone</InstanceName>
+                    <DomainName>Contact Medium</DomainName>
+                    <FullId>1632006</FullId>
+                </InstanceDomainAndFullId>
+            </ContactMethod>
+            <VerificationStatus>
+                <InstanceDomainAndFullId>
+                    <InstanceName>Unverified</InstanceName>
+                    <DomainName>VerificationStatus</DomainName>
+                    <FullId>7808000</FullId>
+                </InstanceDomainAndFullId>
+            </VerificationStatus>
+            <AreaCode>04</AreaCode>
+            <Extension>4231</Extension>
+            <IntCode>64</IntCode>
+            <TelephoneNo>77${eosCustomerNoSuffix}</TelephoneNo>
+        </OCPhone>
+        <additional-data-set>
+            <additional-data>
+                <name>PARAM_STR_CUSTOMERNO</name>
+                <value>#(eosCustomerNo)</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_STR_METHOD</name>
+                <value>1632006</value>
+            </additional-data>
+        </additional-data-set>
+    </update-data>
+</NS1:WSUpdateRequest>

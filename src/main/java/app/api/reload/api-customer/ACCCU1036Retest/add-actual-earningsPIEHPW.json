@@ -1,0 +1,24 @@
+{
+	"earningsType": {
+		"fullId": 7167040,
+		"name": "Post Incapacity Earnings Hours Per Week"
+	},
+	"effectiveDate": "2024-10-21",
+	"endDate": "2024-10-27",
+    "grossAmount": {
+        "amountMinorUnits": 0
+    },
+    "extensions": {
+    	"extPIEHoursWorked": "27",
+	    "extEstimatedGross":{
+             "amountMinorUnits": 0,
+              "currency": "---",
+        "scale": 2
+        },
+        "extPIEHourlyRate":{
+             "amountMinorUnits": 0,
+              "currency": "---",
+        "scale": 2
+        }
+    }
+}

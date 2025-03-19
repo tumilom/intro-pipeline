@@ -1,0 +1,56 @@
+<p:WSUpdateRequest xmlns:p="http://www.fineos.com/wscomposer/CreateOrUpdateCustomerContactDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fineos.com/wscomposer/CreateOrUpdateCustomerContactDetails CreateOrUpdateCustomerContactDetails-Request.xsd ">
+    
+    <config-name>config-name</config-name>
+    <update-data>
+        <OCFlatContact>
+            <ContactMethod>
+                <InstanceDomainAndFullId>
+                    <InstanceName>Email</InstanceName>
+                    <DomainName>Contact Medium</DomainName>
+                    <FullId>1632003</FullId>
+                </InstanceDomainAndFullId>
+            </ContactMethod>
+            <VerificationStatus>
+                <InstanceDomainAndFullId>
+                    <InstanceName>Verified</InstanceName>
+                    <DomainName>VerificationStatus</DomainName>
+                    <FullId>7808001</FullId>
+                </InstanceDomainAndFullId>
+            </VerificationStatus>
+            <FreeFormatAddress>ying.luo@acc.com</FreeFormatAddress>
+        </OCFlatContact>
+        <OCPhone>
+            <ContactMethod>
+                <InstanceDomainAndFullId>
+                    <InstanceName>Home Phone</InstanceName>
+                    <DomainName>Contact Medium</DomainName>
+                    <FullId>1632001</FullId>
+                </InstanceDomainAndFullId>
+            </ContactMethod>
+            <VerificationStatus>
+                <InstanceDomainAndFullId>
+                    <InstanceName>Verified</InstanceName>
+                    <DomainName>VerificationStatus</DomainName>
+                    <FullId>7808001</FullId>
+                </InstanceDomainAndFullId>
+            </VerificationStatus>
+            <AreaCode>09</AreaCode>
+            <Extension/>
+            <TelephoneNo>0211568879</TelephoneNo>
+        </OCPhone>
+        <additional-data-set>
+            <additional-data>
+                <name>PARAM_STR_CUSTOMERNO</name>
+                <value>#(customerNo)</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_STR_USERID</name>
+                <value>#(userId)</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_STR_PREFCONTACTMETHOD</name>
+                <value>#(preferredContactMethod)</value>
+            </additional-data>
+        </additional-data-set>
+    </update-data>
+</p:WSUpdateRequest>

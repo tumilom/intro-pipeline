@@ -1,0 +1,41 @@
+        {           
+            "description": "test",
+            "effectiveFromDate": "",
+            "effectiveToDate": "",
+            "paymentMethod": {               
+                "fullId": 66224001,
+                "name": "Elec Funds Transfer"               
+            },		       
+            "isDefault":true,
+            "accountDetail": {
+                "bankCode": "02",
+                "accountNo": "0400000-08",
+                "accountName": "Ms Sarah test",
+                "routingNumber": "0500",
+                "accountType": {                   
+                    "fullId": 68176001,
+                    "name": "New Zealand Bank Account"                    
+                },
+                "currency": "NZD"                
+            },                        
+            "address": {
+                "premiseNo": "",
+                "addressLine1": "added on edit address",
+                "addressLine2": "",
+                "addressLine3": "wellington",
+                "addressLine4": "wellington",
+                "addressLine5": "New Zealand",
+                "addressLine6": "",
+                "addressLine7": "",
+                "postCode": "1234",
+                "country": {                    
+                    "fullId": 672029,
+                    "name": "New Zealand"                    
+                },
+                "extensions": {
+                    "extExternalPostalAddrId": "",
+                    "extTui": ""
+                }
+            }
+        }
+   

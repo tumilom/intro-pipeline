@@ -1,0 +1,6 @@
+providerId,extLocationInstanceName,extClassDesc,extClassCode,extRegisteredForServices,extStatus,extStatusReason
+A51670,Auckland City,General Practitioner,14,false,Active,Unknown		
+AA1239,Nelson City,Paediatrician,38,true,Active,Unknown		
+AA6334,Auckland City,General Surgeon,14,true,Active,Unknown		
+ABC123,Auckland City,General Practitioner,14,true,Active,Unknown		
+XYZ123,Auckland City,General Practitioner,14,true,Active,Unknown

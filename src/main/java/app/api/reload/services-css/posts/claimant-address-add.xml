@@ -1,0 +1,42 @@
+<NS1:WSUpdateRequest xmlns:NS1="http://www.fineos.com/wscomposer/CreateOrUpdateClaimantAddress">
+    <config-name>CreateOrUpdateClaimantAddress</config-name>
+    <update-data>
+        <OCPostalAddress>
+            <Address1>609 Massey Rd-test3</Address1>
+            <Address2>updated by ws11</Address2>
+            <Address3>Mangere</Address3>
+            <Address4>Auckland</Address4>
+            <Address5/>
+            <Address6/>
+            <Address7/>
+            <Country>
+                <InstanceAndDomainName>
+                    <InstanceName>New Zealand</InstanceName>
+                    <DomainName>Country</DomainName>
+                </InstanceAndDomainName>
+            </Country>
+            <PostCode>2022</PostCode>
+            <PremiseNo/>
+            <VerificationStatus>
+                <InstanceAndDomainName>
+                    <InstanceName>#(verificationStatus)</InstanceName>
+                    <DomainName>VerificationStatus</DomainName>
+                </InstanceAndDomainName>
+            </VerificationStatus>
+        </OCPostalAddress>
+        <additional-data-set>
+            <additional-data>
+                <name>PARAM_STR_CUSTOMERNO</name>
+                <value>#(eosCustomerNo)</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_STR_ADDRESS_TYPE</name>
+                <value>1088001</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_IS_CORRESPONDENCE</name>
+                <value>true</value>
+            </additional-data>
+        </additional-data-set>
+    </update-data>
+</NS1:WSUpdateRequest>

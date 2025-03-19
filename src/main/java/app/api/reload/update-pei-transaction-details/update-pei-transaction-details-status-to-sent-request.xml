@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oper:WSUpdateAttrRequest  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oper="http://www.fineos.com/wscomposer/UpdatePEITransactionDetails">
+<config-name>UpdatePEITransactionDetails</config-name>
+<update-data>
+<additional-data-set>
+<additional-data>
+<name>BatchId</name>
+<value>#(updatePeiBatchId)</value>
+</additional-data>
+<additional-data>
+<name>TransStatusDate</name>
+<value>#(updatePeiTransStatusDate)</value>
+</additional-data>
+<additional-data>
+<!--could be one of all|fails|successes-->
+<name>TypeSwitch</name>
+<value>all</value>
+</additional-data>
+</additional-data-set>
+</update-data>
+</oper:WSUpdateAttrRequest>
+

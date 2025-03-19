@@ -1,0 +1,91 @@
+<p:SensitiveClaimEngagementForm
+	xmlns:email="http://xmlschema.acc.co.nz/generic/identity/email-address/20140717"
+	xmlns:p="http://xmlschema.acc.co.nz/claimmanagement/engagement/20160121"
+	xmlns:p1="http://xmlschema.acc.co.nz/claimmanagement/20140627"
+	xmlns:p2="http://xmlschema.acc.co.nz/common/identity/20140627"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlschema.acc.co.nz/claimmanagement/engagement/20160121 http://xmlschema-dev.ds.acc.co.nz/claimmanagement/engagement/SensitiveClaimEngagementForm_20160121.xsd">
+	
+<p:EngagementFormIdentifier>#(acc45ClaimNumber)</p:EngagementFormIdentifier>
+  <p:LodgementTimestamp>#(lodgementDate)</p:LodgementTimestamp>
+  <p:ClientDetails>
+    <p:PersonalDetails>
+      <p:Client>
+              <p:FirstName>#(claimantFirstName)</p:FirstName> 
+              <p:MiddleName>Test</p:MiddleName> 
+              <p:LastName>#(claimantLastName)</p:LastName> 
+              <p:Alias>Juny</p:Alias> 
+              <p:DateOfBirth>#(dobDate)</p:DateOfBirth> 
+              <p:Gender>F</p:Gender> 
+              <p:Ethnicity> <p:Code>53</p:Code> </p:Ethnicity> 
+        </p:Client>
+         <p:HomeAddress> 
+              <p2:Line1>8 Canongate</p2:Line1> 
+              <p2:Line2>Yeah Nah</p2:Line2> 
+              <p2:Suburb>Dunedin Central</p2:Suburb> 
+              <p2:TownCity>Dunedin</p2:TownCity> 
+              <p2:PostCode>9016</p2:PostCode>
+              <p2:Country>New Zealand</p2:Country> 
+              <p2:DPID>6060842</p2:DPID> 
+          </p:HomeAddress> 
+          <p:CYFInvolved>false</p:CYFInvolved>
+          <p:CYFContactPersonName>Burt Munroe</p:CYFContactPersonName>
+ </p:PersonalDetails> 
+ <p:EmploymentDetails> 
+       <p:CurrentEmploymentStatusCode>1</p:CurrentEmploymentStatusCode>
+       <p:ClientAbleToContinueNormalWork>false</p:ClientAbleToContinueNormalWork>
+   </p:EmploymentDetails> 
+<p:Email>testemailaddress12345689745@acc.co.nz</p:Email>
+    <p:HomePhoneNumber>044564654</p:HomePhoneNumber>
+    <p:MobilePhoneNumber>0214564563</p:MobilePhoneNumber>
+    <p:WorkPhoneNumber>042567563</p:WorkPhoneNumber>
+  </p:ClientDetails>
+  <p:SafeContactDetails>
+    <p:OtherPerson>
+      <p:Name>Anna</p:Name>
+      <p:RelationshipToClient>Mother</p:RelationshipToClient>
+    </p:OtherPerson>
+    <p:PostalAddress>
+      <p2:Line1>33 Courtenay Apartments</p2:Line1>
+      <p2:Line2>Brick &amp; Lane</p2:Line2>
+      <p2:Suburb>Northland</p2:Suburb>
+      <p2:TownCity>Melbourne</p2:TownCity>
+      <p2:PostCode>4001</p2:PostCode>
+      <p2:Country>Australia</p2:Country>
+      <p2:DPID>57845789 456+842723744</p2:DPID>
+    </p:PostalAddress>
+    <p:HomePhoneNumber>0499328833</p:HomePhoneNumber>
+    <p:MobilePhoneNumber>02156454433</p:MobilePhoneNumber>
+    <p:WorkPhoneNumber>0423455431</p:WorkPhoneNumber>
+    <p:PreferredContactMethod>HomePhone</p:PreferredContactMethod>
+
+    <p:NotesRegardingMakingContact>Some $ notes^ about &amp; this contact here...</p:NotesRegardingMakingContact>
+  </p:SafeContactDetails>
+
+  <p:EngagementDetails>
+    <p:ClientHasPreviouslyReceivedServices>false</p:ClientHasPreviouslyReceivedServices>
+    <p:NewEngagementDetails>
+      <p:Event>
+        <p:EventDateRangeFrom>#(eventDateFrom)</p:EventDateRangeFrom>
+        <p:EventDateRangeTo>#(eventDateTo)</p:EventDateRangeTo>
+        <p:AnyEventOccuredAtWork>false</p:AnyEventOccuredAtWork>
+        <p:AnyEventOccurredOutsideNZ>true</p:AnyEventOccurredOutsideNZ>
+      </p:Event>
+    </p:NewEngagementDetails>
+    <p:ClientWishesToContinueWithAcc>true</p:ClientWishesToContinueWithAcc>
+  </p:EngagementDetails>
+
+
+  <p:ConsultationDetails>
+    <p:ConsultationDate>#(consultationDate)</p:ConsultationDate>
+    <p:SecondConsultationDate>#(SecondConsultationDate)</p:SecondConsultationDate>
+    <p:ConsultationNotes>Some -notes about t'he co &amp;nsultation here</p:ConsultationNotes>
+    <p:AccShouldContactTheProvider>true</p:AccShouldContactTheProvider>
+    <p:AccShouldContactTheClient>true</p:AccShouldContactTheClient>
+    <p:ProviderDetails>
+      <p:AccProviderID>#(providerIdentifier)</p:AccProviderID>
+      <p:ProviderName>Benjamin Tin Aung Soe222</p:ProviderName>
+      <p:AccVendorID>PAQ610</p:AccVendorID>
+      <p:VendorName>Jessica Rose Long</p:VendorName>
+    </p:ProviderDetails>
+  </p:ConsultationDetails>
+</p:SensitiveClaimEngagementForm>

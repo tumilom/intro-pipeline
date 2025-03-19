@@ -1,0 +1,80 @@
+{
+  "workPatternType": {
+        "fullId": "#(workPatternType)",
+        "name": "Weekly Work Pattern"
+  },
+  "workWeekStarts": {
+        "fullId": 5408000,
+        "name": "Unknown"
+        },
+  "patternStartDate": "2004-06-01",
+  "patternStatus": {
+		"fullId": 8896000,
+        "name": "Unknown"
+    },
+  "workPatternDays": [
+        {
+            "dayOfWeek": {               
+                "fullId": 5408001,
+                "name": "Monday"               
+            },
+            "hours": 7,         
+            "minutes": 30,
+            "weekNumber": 1
+        },
+        {
+            "dayOfWeek": {                
+                "fullId": 5408002,
+                "name": "Tuesday"               
+            },
+            "hours": 7,            
+            "minutes": 30,
+            "weekNumber": 1
+        },
+        {
+            "dayOfWeek": {               
+                "fullId": 5408003,
+                "name": "Wednesday"               
+            },
+            "hours": 7,           
+            "minutes": 30,
+            "weekNumber": 1
+        },
+        {
+            "dayOfWeek": {              
+                "fullId": 5408004,
+                "name": "Thursday"                
+            },
+            "hours": 7,            
+            "minutes": 30,
+            "weekNumber": 1
+        },
+        {
+            "dayOfWeek": {               
+                "fullId": 5408005,
+                "name": "Friday"                
+            },
+            "hours": 7,           
+            "minutes": 30,
+            "weekNumber": 1
+        },
+        {
+            "dayOfWeek": {               
+                "fullId": 5408006,
+                "name": "Saturday"              
+            },
+            "hours": 0,            
+            "minutes": 0,
+            "weekNumber": 1
+        },
+        {
+            "dayOfWeek": {               
+                "fullId": 5408007,
+                "name": "Sunday"               
+            },
+            "hours": 0,          
+            "minutes": 0,
+            "weekNumber": 1
+        }
+    ]
+}

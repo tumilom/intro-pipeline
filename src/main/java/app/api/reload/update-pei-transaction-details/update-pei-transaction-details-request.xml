@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oper:WSUpdateAttrRequest  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oper="http://www.fineos.com/wscomposer/UpdatePEITransactionDetails">
+<config-name>UpdatePEITransactionDetails</config-name>
+<update-data>
+<OLPaymentEventInterface>
+<OID>PE:7326:00008802</OID>
+<TransactionStatus>Sent</TransactionStatus>
+<TransStatusDate>2018-03-28T23:59:00.000-05:00</TransStatusDate>
+<extTransStatusDesc>REASON_FOR_FAILURE</extTransStatusDesc>
+</OLPaymentEventInterface>
+<OLPaymentEventInterface>
+<OID>PE:7326:00008802</OID>
+<TransactionStatus>Sent</TransactionStatus>
+<TransStatusDate>2018-03-28T23:59:00.000-05:00</TransStatusDate>
+<extTransStatusDesc>REASON_FOR_FAILURE</extTransStatusDesc>
+</OLPaymentEventInterface>
+<OLPaymentEventInterface>
+<OID>PE:7326:00008802</OID>
+<TransactionStatus>Sent</TransactionStatus>
+<TransStatusDate>2018-03-28T23:59:00.000-05:00</TransStatusDate>
+<extTransStatusDesc>REASON_FOR_FAILURE</extTransStatusDesc>
+</OLPaymentEventInterface>
+<additional-data-set>
+<additional-data>
+<name>BatchId</name>
+<value/>
+</additional-data>
+<additional-data>
+<name>TransStatusDate</name>
+<value>2018-03-28T23:59:00.000-05:00</value>
+</additional-data>
+<additional-data>
+<!--could be one of all|fails|successes-->
+<name>TypeSwitch</name>
+<value>all</value>
+</additional-data>
+</additional-data-set>
+</update-data>
+</oper:WSUpdateAttrRequest>
+

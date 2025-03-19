@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uec:WSUpdateRequest xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:uec="http://www.fineos.com/wscomposer/UpdateEmployerClassification" >
+ <config-name>Anything will do for REST - config-name, userid are passed as http request parameter</config-name>
+         <update-data>
+            <Employer>
+               <customerNmbr>#(employerId)</customerNmbr>
+			   <lastUpdate>#(dateNow)</lastUpdate>
+               <partyClassifications>
+                  <ClassificationUnit>
+                     <cuStartDate>2024-01-01T00:00:00</cuStartDate>
+                     <cuEndDate>2025-01-01T00:00:00</cuEndDate>
+                     <cuCode>93180</cuCode>
+                     <cuDescription>Sport and physical recreation - professional rugby</cuDescription>
+                     <fmiu>
+                        <FullId>486144001</FullId> 
+                     </fmiu>
+                  </ClassificationUnit>
+				  <ClassificationUnit>
+                     <cuStartDate>2023-01-01T00:00:00</cuStartDate>
+                     <cuEndDate>2024-01-01T00:00:00</cuEndDate>
+                     <cuCode>93180</cuCode>
+                     <cuDescription>Sport and physical recreation - professional rugby</cuDescription>
+                     <fmiu>
+                        <FullId>486144001</FullId> 
+                     </fmiu>
+                  </ClassificationUnit>
+               </partyClassifications>
+            </Employer>
+            <additional-data-set>
+               <!--Zero or more repetitions:-->
+               <additional-data>
+                  <name>?</name>
+                  <value>?</value>
+               </additional-data>
+            </additional-data-set>
+         </update-data>
+</uec:WSUpdateRequest>

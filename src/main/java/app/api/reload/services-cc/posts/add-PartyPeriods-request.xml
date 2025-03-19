@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:WSUpdateRequest xmlns:p="http://www.fineos.com/wscomposer/PartyPeriods" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <config-name>PartyPeriods</config-name>
+    <update-data>
+        <OCPartyPeriod>
+            
+            <ConsultationDate>2021-02-24T12:00:00</ConsultationDate>
+            <Notes>Karate added period</Notes>
+            <PeriodFromDate>2024-04-24T12:00:00</PeriodFromDate>
+            <PeriodToDate>2024-08-24T12:00:00</PeriodToDate>
+            <PeriodType>
+                <InstanceAndDomainName>
+                    <InstanceName>Full Time Study</InstanceName>
+                    <DomainName>Period PeriodType</DomainName>
+                </InstanceAndDomainName>
+            </PeriodType>
+            <periodHistories>
+                <OCPeriodHistory>                   
+                    <Status>
+                        <InstanceAndDomainName>
+                            <InstanceName>Approved</InstanceName>
+                            <DomainName>Period History Status</DomainName>
+                        </InstanceAndDomainName>
+                    </Status>
+                </OCPeriodHistory>
+            </periodHistories>
+            <!--Optional:-->
+            <EXTINTERVENTIONLEVEL>
+            <InstanceAndDomainName>
+            <InstanceName>High</InstanceName>
+            <DomainName>ACC Intervention Level</DomainName>
+            </InstanceAndDomainName>
+            </EXTINTERVENTIONLEVEL>
+            <!--Optional:-->
+            <EXTMODELVERSION>Test Model version</EXTMODELVERSION>
+            <!--Optional:-->
+            <EXTOPTOUT>0</EXTOPTOUT>
+            <!--Optional:-->
+            <EXTPARTICIPATION>
+            <InstanceAndDomainName>
+            <InstanceName>Control</InstanceName>
+            <DomainName>ACC Ext Participation</DomainName>
+            </InstanceAndDomainName>
+            </EXTPARTICIPATION>
+            <!--Optional:-->
+            <EXTSCORE>Test score 2</EXTSCORE>
+        </OCPartyPeriod>
+        <!--Optional:-->
+        <additional-data-set>
+            <!--Zero or more repetitions:-->
+            <additional-data>
+                <name>PARAM_STR_CUSTOMERNO</name>
+                <value>#(strCustomerNumber)</value>
+            </additional-data>
+        </additional-data-set>
+    </update-data>
+</p:WSUpdateRequest>

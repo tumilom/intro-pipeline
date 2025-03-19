@@ -1,0 +1,24 @@
+{
+	"earningsType": {
+		"fullId": 7167041,
+		"name": "Post Incapacity Earnings Hourly Rate"
+	},
+	"effectiveDate": "2024-10-28",
+	"endDate": "2024-11-10",
+    "grossAmount": {
+        "amountMinorUnits": 0
+    },
+    "extensions": {
+    	"extPIEHoursWorked": "30",
+	    "extEstimatedGross":{
+             "amountMinorUnits": 0,
+              "currency": "---",
+        "scale": 2
+        },
+        "extPIEHourlyRate":{
+             "amountMinorUnits": 6000,
+              "currency": "---",
+        "scale": 2
+        }
+    }
+}

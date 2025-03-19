@@ -1,0 +1,24 @@
+{
+	"earningsType": {
+		"fullId": 7167039,
+		"name": "Post Incapacity Earnings Percentage"
+	},
+	"effectiveDate": "2024-11-11",
+	"endDate": "2024-11-17",
+    "grossAmount": {
+        "amountMinorUnits": 0
+    },
+    "extensions": {
+		 "extPIEPercentage": "0.85",
+	    "extEstimatedGross":{
+             "amountMinorUnits": 0,
+              "currency": "---",
+        "scale": 2
+        },
+        "extPIEHourlyRate":{
+             "amountMinorUnits": 0,
+              "currency": "---",
+        "scale": 2
+        }
+    }
+}

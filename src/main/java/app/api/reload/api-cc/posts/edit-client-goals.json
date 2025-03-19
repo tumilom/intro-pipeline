@@ -1,0 +1,10 @@
+{
+    "clientActions": "",
+    "creationDate":  #(creationDate),
+    "decisionInfo": "Karate edit client goal",
+    "name": "testgoal",
+    "outcomeDate": #(outcomeDate),
+    "outcomeNotes": "",
+    "description": "Karate edit client goal outcome notes",
+    "otherActions": ""
+}

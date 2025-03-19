@@ -1,0 +1,27 @@
+{   
+    "freeTextPartyName": "",
+    "contactDateTime":  #(effectiveDate),
+    "direction": "Incoming",
+    "duration": 0,
+    "reason": {
+        "name": "Please Select",
+        "fullId": 768000
+    },
+    "description": "testing from karate",
+    "methodOfContact": {
+        "name": "E-mail",
+        "fullId": 1056004
+    },
+    "customerReaction": {
+        "name": "Please Select",
+        "fullId": 256000
+    },
+    "telephoneManner": {
+        "name": "Unknown",
+        "fullId": 288000
+    },
+    "privacyTag": {
+        "name": "Unknown",
+        "fullId": 7776000
+    }
+}

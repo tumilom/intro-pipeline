@@ -34,4 +34,5 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build with Maven
-        run: mvn --batch-mode help:active-profiles
+        run: |
+          mvn test -Pdt1 -Dkarate.env=dt1 -Dkarate.options="--tags @ListWSComposerServices"

@@ -1,0 +1,13 @@
+seq,defType,causeOfInjury,claimantFirstName,lastname,lodgementOffset,dobOffset,medCode
+00,AutoAccept,Twisted ankle while going down stairs,Besla,Tester,21,1901,Eu341
+01,AutoAccept,Hearing MBI noises of boinling water…,Bintin,Tester,21,1901,Eu341
+02,withIncapacity,Twisted MBI big toe while going down stairs,Bessa,Tester,21,1901,Eu341
+03,withIncapacity,Hearing MBI noises of boinling coffex,Beresa,Tester,21,1901,Eu341
+04,withIncapacity,R hand caught between MBI planks belt,Bherese,Tester,21,2801,Eu341
+05,withIncapacity,R hand caught between Test planks of wood,Bhemote,Tester,21,2801,Eu341
+06,withIncapacity,L hand caught between MBI planks of wood,Bonald,Christiansen,21,2801,Eu341
+07,withIncapacity,L hand caught between MBI plag belt,Binah,Christiansen,21,2801,Eu341
+08,withIncapacity,L hand caught between MBI plag belt,Bona,Christiansen,21,1901,Eu341
+09,withIncapacity,L hand caught between MBI plag belt,Bonald,Christiansen,21,1901,Eu341
+10,AutoAccept,Twisted MBI while going down stairs,Buth,Christiansen,21,1901,Eu341
+11,AutoAccept,Hearing MBI noises of boinling milk,Bina,Tester,21,1901,Eu341

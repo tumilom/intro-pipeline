@@ -1,0 +1,40 @@
+<p:WSUpdateRequest
+    xmlns:p="http://www.fineos.com/wscomposer/CreateOutcomeMeasure"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <config-name>CreateOutcomeMeasure</config-name>
+    <update-data>
+        <OutcomeMeasure>
+            <Description>Testing Psychosocial Tool</Description>
+        </OutcomeMeasure>
+        <additional-data-set>
+            <additional-data>
+                <name>PARAM_STR_CASENUMBER</name>
+                <value>#(recoverPlanCaseNumber)</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_STR_USERID</name>
+                <value>#(myACCCustomerNo)</value>
+            </additional-data>
+            <additional-data>
+                <name>PARAM_STR_ASSMTTYPE</name>
+                <value>#(outcomeMeasureType)</value>
+            </additional-data>
+            <additional-data>
+                <name>Psychosocial1</name>
+                <value>5</value>
+            </additional-data>
+            <additional-data>
+                <name>Psychosocial2</name>
+                <value>2024-07-19T00:00:00.000</value>
+            </additional-data>
+            <additional-data>
+                <name>Psychosocial3</name>
+                <value>false</value>
+            </additional-data>
+            <additional-data>
+                <name>Psychosocial4</name>
+                <value>No rating given</value>
+            </additional-data>
+        </additional-data-set>
+    </update-data>
+</p:WSUpdateRequest>

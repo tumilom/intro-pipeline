@@ -1,0 +1,37 @@
+{
+   "effectiveDate": #(effectiveDate),
+   "taxType": #(taxType),
+   "taxCode": "Unknown",
+   "percentageRate": 0,
+   "filingMaritalStatus": "Unknown",
+   "additionalWithholdAmount": "0.00",
+   "numberExemptions": 0,
+   "classExtensionInformation":    [
+            {
+         "name": "extIRDDirTaxCodeChng",
+         "booleanValue": false
+      },
+            {
+         "name": "extKiwiSaverStatus",
+         "enumValue":          {
+            "domainName": "FilingMaritalStatus",
+            "instanceValue": "3 Percent"
+         }
+      },
+            {
+         "name": "extOvrExtraPayEnum",
+         "enumValue":          {
+            "domainName": "TaxType",
+            "instanceValue": "Not Selected"
+         }
+      },
+            {
+         "name": "extSpclDedRtStdntLn",
+         "integerValue": "3"
+      },
+            {
+         "name": "extStLnRepThrshld",
+         "booleanValue": true
+      }
+   ]
+}

@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oper="http://www.fineos.com/frontoffice/workmanager/operationtypes" xmlns:ext="http://www.fineos.com/ta/common/external"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header>
+        <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:UsernameToken>
+                <wsse:Username>OASIS</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">password1</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </soapenv:Header>
+   <soapenv:Body>
+      <oper:CreateTask xmlns:ns1 = "http://www.fineos.com/frontoffice/partymanager/external">
+		<workType>
+				<Name>#(taskType)</Name>
+		</workType>
+			<activitySubject>
+				<GenericSubject>#(taskType)</GenericSubject>
+			</activitySubject>
+		<case>
+			<CaseNumber>#(caseNumber)</CaseNumber>
+			<UserCaseAliases>true</UserCaseAliases>
+		</case>
+		<description>KarateFramework task creation test</description>
+      </oper:CreateTask>
+   </soapenv:Body>
+</soapenv:Envelope>

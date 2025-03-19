@@ -1,0 +1,30 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oper="http://www.fineos.com/frontoffice/workmanager/operationtypes" xmlns:ext="http://www.fineos.com/ta/common/external"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header>
+    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:UsernameToken>
+                <wsse:Username>OASIS</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">password1</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+	</soapenv:Header>
+   <soapenv:Body>
+      <oper:CreateActivity xmlns:ns1 = "http://www.fineos.com/frontoffice/partymanager/external">
+         <workType>
+            <Name>MyACC Consent Received</Name>
+         </workType>
+         <activitySubject>
+            <!--<GenericSubject>abc</GenericSubject>-->
+            <PartySubject xsi:type="ns1:PersonIdentifier">
+                  <CustomerNo>20103053</CustomerNo>
+            </PartySubject>
+         </activitySubject>
+         <case>
+            <CaseNumber>10060068371</CaseNumber>
+         </case>         
+         <description>~MyACC via API 2802c~
+How did you get around before accident? (Drop down options: I drove myself; A mate, family member or support person would drive me; I used public transport (bus, train or ferry); I walked; I cycled; other
+* * Task sent via SoapUI. * * ACTIVE BAU CASES->> CASE OWNER OWNED </description>
+      </oper:CreateActivity>
+   </soapenv:Body>
+</soapenv:Envelope>

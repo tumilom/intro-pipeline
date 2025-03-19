@@ -1,0 +1,21 @@
+providerId,extLocationInstanceName,extClassDesc,extClassCode,extRegisteredForServices,extStatus,extStatusReason
+A51670,Auckland City,General Practitioner,14,false,Active,Unknown		
+AA1239,Nelson City,Paediatrician,38,true,Active,Unknown		
+AA6334,Auckland City,General Practitioner,14,true,Active,Unknown		
+ABC123,Auckland City,General Practitioner,14,true,Active,Unknown		
+XYZ123,Auckland City,General Practitioner,14,true,Active,Unknown
+B51670,Auckland City,General Practitioner,14,false,Active,Unknown		
+BA1239,Nelson City,Paediatrician,38,true,Active,Unknown		
+BA6334,Auckland City,General Practitioner,14,true,Active,Unknown		
+BBC123,Auckland City,General Practitioner,14,true,Active,Unknown		
+YYZ123,Auckland City,General Practitioner,14,true,Active,Unknown
+B61670,Auckland City,General Practitioner,14,false,Active,Unknown		
+BB1239,Nelson City,Paediatrician,38,true,Active,Unknown		
+BB6334,Auckland City,General Practitioner,14,true,Active,Unknown		
+BCC123,Auckland City,General Practitioner,14,true,Active,Unknown		
+YZZ123,Auckland City,General Practitioner,14,true,Active,Unknown
+B60670,Auckland City,General Practitioner,14,false,Active,Unknown		
+BB0239,Nelson City,Paediatrician,38,true,Active,Unknown		
+BB5334,Auckland City,General Practitioner,14,true,Active,Unknown		
+BCB123,Auckland City,General Practitioner,14,true,Active,Unknown		
+YZY123,Auckland City,General Practitioner,14,true,Active,Unknown

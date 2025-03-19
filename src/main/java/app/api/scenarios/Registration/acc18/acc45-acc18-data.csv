@@ -1,0 +1,4 @@
+seq,defType,causeOfInjury,claimantFirstName,lastname,lodgementOffset,dobOffset,medCode,acc18defType,unfitFromOffset,unfitToOffset,providerIdentifier,expectedTaskName
+10,AutoAccept,Twisted ankle while going down stairs cd:acceptmet,Tesla,Tester,21,1900,Eu341,no-incapacity,2,87,AA6334,AUTO Alert: RTW Request - ACC18 No Incapacity
+11,withIncapacity,Twisted MBI big toe while going down stairs cd:acceptmet,Tessa,Tester,21,1900,Eu341,with-incapacity,4,86,AA6334,AUTO Alert: RTW Request - ACC18 Incapacity
+12,AutoAccept,Twisted MBI while going down stairs cd:acceptmet,Ruth,Christiansen,21,1900,Eu341,diagnosis,7,90,AA6334,AUTO Alert: ACC18 diagnosis update

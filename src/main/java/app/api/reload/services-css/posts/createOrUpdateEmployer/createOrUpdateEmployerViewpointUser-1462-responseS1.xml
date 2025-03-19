@@ -1,0 +1,14 @@
+<ns2:CreateOrUpdateEmployerViewpointUserResponse xmlns:ns2="http://www.fineos.com/frontoffice/externaluserprovisioning/external">
+   <ns2:errorCode/>
+   <ns2:errorMessage/>
+   <ns2:result>
+      <ns2:partyReference>CN135780D</ns2:partyReference>
+      <ns2:userId>EC-1103A</ns2:userId>
+      <ns2:userOID>
+         <ClassID>1000</ClassID>
+         <IndexID>22799443</IndexID>
+         <Flags>PE</Flags>
+      </ns2:userOID>
+      <ns2:userAlreadyExisted>false</ns2:userAlreadyExisted>
+   </ns2:result>
+</ns2:CreateOrUpdateEmployerViewpointUserResponse>

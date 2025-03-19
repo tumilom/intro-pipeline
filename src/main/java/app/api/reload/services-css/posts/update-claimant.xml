@@ -1,0 +1,14 @@
+<NS1:WSUpdateRequest xmlns:NS1="http://www.fineos.com/wscomposer/UpdateClaimant">
+    <config-name>UpdateClaimant</config-name>
+      <update-data>
+             <OCPerson>  
+                    <extIRDNumber>085726202</extIRDNumber>
+             </OCPerson>
+       <additional-data-set>            
+             <additional-data>
+                  <name>PARAM_STR_CUSTOMERNO</name>
+                  <value>#(eosCustomerNo)</value>
+        </additional-data>                
+       </additional-data-set>
+</update-data>
+</NS1:WSUpdateRequest>

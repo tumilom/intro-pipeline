@@ -1,0 +1,25 @@
+<tns:CreateOrUpdateEmployerViewpointUserRequest xmlns:tns="http://www.fineos.com/frontoffice/externaluserprovisioning/external">
+    <tns:partyReference>#(employerId)</tns:partyReference>
+    <tns:userID>#(eosGCUserId)</tns:userID>
+    <tns:fullName>Group Client Test User</tns:fullName>
+    <tns:emailAddress>testuser@acc.co.nz</tns:emailAddress>
+    <tns:phone>
+        <tns:contactAreaCode>026</tns:contactAreaCode>
+        <tns:contactExtensionCode></tns:contactExtensionCode>
+        <tns:contactInternationalCode></tns:contactInternationalCode>
+        <tns:contactNumber>1234567</tns:contactNumber>
+    </tns:phone>
+    <tns:cellPhone>
+        <tns:contactAreaCode>021</tns:contactAreaCode>
+        <tns:contactExtensionCode></tns:contactExtensionCode>
+        <tns:contactInternationalCode>64</tns:contactInternationalCode>
+        <tns:contactNumber>22333444</tns:contactNumber>
+    </tns:cellPhone>
+    <tns:fax>
+        <tns:contactAreaCode></tns:contactAreaCode>
+        <tns:contactExtensionCode></tns:contactExtensionCode>
+        <tns:contactInternationalCode></tns:contactInternationalCode>
+        <tns:contactNumber></tns:contactNumber>
+    </tns:fax>
+    <tns:enabled>true</tns:enabled>    
+</tns:CreateOrUpdateEmployerViewpointUserRequest>

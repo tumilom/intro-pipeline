@@ -1,0 +1,17 @@
+{
+    "dmsDocId": "#(dmsDocId)",
+    "fileExtension": ".pdf",
+    "docProperties":
+        {
+            "receivedDate": "#(receivedDateZulu)",
+            "status": "Received",
+            "dmsDocType": "#(dmsDocType)",
+			"sourceSystem": "OracleUCM",
+            "classExtensionInformation":
+                [{
+                "name": "extVCFContentID",
+                "stringValue": "#(documentContentId)"
+                }]
+        }
+}
+ 
